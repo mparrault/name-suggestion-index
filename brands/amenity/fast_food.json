@@ -83,6 +83,14 @@
       "takeaway": "yes"
     }
   },
+  "amenity/fast_food|Asia-Imbiss": {
+    "tags": {
+      "amenity": "fast_food",
+      "brand": "Asia-Imbiss",
+      "name": "Asia-Imbiss",
+      "takeaway": "yes"
+    }
+  },
   "amenity/fast_food|Au Bon Pain": {
     "countryCodes": ["in", "th", "us"],
     "tags": {
@@ -156,6 +164,18 @@
       "takeaway": "yes"
     }
   },
+  "amenity/fast_food|Biscuitville": {
+    "countryCodes": ["us"],
+    "tags": {
+      "amenity": "fast_food",
+      "brand": "Biscuitville",
+      "brand:wikidata": "Q4917274",
+      "brand:wikipedia": "en:Biscuitville",
+      "cuisine": "american;breakfast",
+      "name": "Biscuitville",
+      "takeaway": "yes"
+    }
+  },
   "amenity/fast_food|Blimpie": {
     "countryCodes": ["us"],
     "tags": {
@@ -213,7 +233,7 @@
       "brand": "Boston Market",
       "brand:wikidata": "Q603617",
       "brand:wikipedia": "en:Boston Market",
-      "cuisine": "american",
+      "cuisine": "american;chicken",
       "name": "Boston Market",
       "takeaway": "yes"
     }
@@ -248,6 +268,24 @@
       "cuisine": "bagel",
       "name": "Bruegger's Bagels",
       "short_name": "Bruegger's",
+      "takeaway": "yes"
+    }
+  },
+  "amenity/fast_food|Burger Fuel": {
+    "countryCodes": [
+      "ae",
+      "iq",
+      "nz",
+      "sa",
+      "us"
+    ],
+    "tags": {
+      "amenity": "fast_food",
+      "brand": "Burger Fuel",
+      "brand:wikidata": "Q4998537",
+      "brand:wikipedia": "en:Burger Fuel",
+      "cuisine": "burger",
+      "name": "Burger Fuel",
       "takeaway": "yes"
     }
   },
@@ -403,7 +441,7 @@
     }
   },
   "amenity/fast_food|Chicken Express": {
-    "countryCodes": ["gb", "us"],
+    "countryCodes": ["us"],
     "tags": {
       "amenity": "fast_food",
       "brand": "Chicken Express",
@@ -411,6 +449,18 @@
       "brand:wikipedia": "en:Chicken Express",
       "cuisine": "chicken",
       "name": "Chicken Express",
+      "takeaway": "yes"
+    }
+  },
+  "amenity/fast_food|Chicken Treat": {
+    "countryCodes": ["us"],
+    "tags": {
+      "amenity": "fast_food",
+      "brand": "Chicken Treat",
+      "brand:wikidata": "Q5096274",
+      "brand:wikipedia": "en:Chicken Treat",
+      "cuisine": "chicken",
+      "name": "Chicken Treat",
       "takeaway": "yes"
     }
   },
@@ -600,6 +650,34 @@
       "takeaway": "yes"
     }
   },
+  "amenity/fast_food|Debonairs Pizza": {
+    "countryCodes": [
+      "ae",
+      "bw",
+      "ke",
+      "ls",
+      "mu",
+      "mw",
+      "mz",
+      "na",
+      "ng",
+      "sd",
+      "ss",
+      "sz",
+      "za",
+      "zm"
+    ],
+    "matchNames": ["debonairs"],
+    "tags": {
+      "amenity": "fast_food",
+      "brand": "Debonairs Pizza",
+      "brand:wikidata": "Q65079407",
+      "brand:wikipedia": "en:Debonairs Pizza",
+      "cuisine": "pizza",
+      "name": "Debonairs Pizza",
+      "takeaway": "yes"
+    }
+  },
   "amenity/fast_food|Del Taco": {
     "countryCodes": ["us"],
     "tags": {
@@ -624,15 +702,27 @@
       "takeaway": "yes"
     }
   },
-  "amenity/fast_food|Domino's Pizza": {
+  "amenity/fast_food|Domino's": {
+    "matchNames": ["dominos pizza"],
     "tags": {
       "amenity": "fast_food",
-      "brand": "Domino's Pizza",
+      "brand": "Domino's",
       "brand:wikidata": "Q839466",
       "brand:wikipedia": "en:Domino's Pizza",
       "cuisine": "pizza",
-      "name": "Domino's Pizza",
-      "short_name": "Domino's",
+      "name": "Domino's",
+      "takeaway": "yes"
+    }
+  },
+  "amenity/fast_food|Donut King": {
+    "countryCodes": ["au"],
+    "tags": {
+      "amenity": "fast_food",
+      "brand": "Donut King",
+      "brand:wikidata": "Q5296921",
+      "brand:wikipedia": "en:Donut King",
+      "cuisine": "donut;coffee_shop",
+      "name": "Donut King",
       "takeaway": "yes"
     }
   },
@@ -643,8 +733,20 @@
       "brand": "Dunkin' Donuts",
       "brand:wikidata": "Q847743",
       "brand:wikipedia": "en:Dunkin' Donuts",
-      "cuisine": "donut;coffee",
+      "cuisine": "donut;coffee_shop",
       "name": "Dunkin' Donuts",
+      "takeaway": "yes"
+    }
+  },
+  "amenity/fast_food|EAT.": {
+    "countryCodes": ["gb"],
+    "tags": {
+      "amenity": "fast_food",
+      "brand": "EAT.",
+      "brand:wikidata": "Q5331219",
+      "brand:wikipedia": "en:Eat (restaurant)",
+      "cuisine": "sandwich",
+      "name": "EAT.",
       "takeaway": "yes"
     }
   },
@@ -677,6 +779,16 @@
       "takeaway": "yes"
     }
   },
+  "amenity/fast_food|Es Teler 77": {
+    "tags": {
+      "amenity": "fast_food",
+      "brand": "Es Teler 77",
+      "brand:wikidata": "Q5396630",
+      "cuisine": "indonesian",
+      "name": "Es Teler 77",
+      "takeaway": "yes"
+    }
+  },
   "amenity/fast_food|Everest": {
     "countryCodes": ["gr"],
     "tags": {
@@ -697,6 +809,17 @@
       "brand:wikipedia": "en:Extreme Pita",
       "cuisine": "pita",
       "name": "Extreme Pita",
+      "takeaway": "yes"
+    }
+  },
+  "amenity/fast_food|Extreme Pizza": {
+    "tags": {
+      "amenity": "fast_food",
+      "brand": "Extreme Pizza",
+      "brand:wikidata": "Q5422364",
+      "brand:wikipedia": "en:Extreme Pizza",
+      "cuisine": "pizza",
+      "name": "Extreme Pizza",
       "takeaway": "yes"
     }
   },
@@ -821,6 +944,18 @@
       "takeaway": "yes"
     }
   },
+  "amenity/fast_food|Golden Chick": {
+    "countryCodes": ["us"],
+    "tags": {
+      "amenity": "fast_food",
+      "brand": "Golden Chick",
+      "brand:wikidata": "Q3772930",
+      "brand:wikipedia": "en:Golden Chick",
+      "cuisine": "chicken",
+      "name": "Golden Chick",
+      "takeaway": "yes"
+    }
+  },
   "amenity/fast_food|Golden Krust Caribbean Bakery & Grill": {
     "countryCodes": ["ca", "us"],
     "tags": {
@@ -830,6 +965,19 @@
       "brand:wikipedia": "en:Golden Krust Caribbean Bakery & Grill",
       "cuisine": "caribbean",
       "name": "Golden Krust",
+      "takeaway": "yes"
+    }
+  },
+  "amenity/fast_food|Good Times": {
+    "countryCodes": ["us"],
+    "tags": {
+      "amenity": "fast_food",
+      "brand": "Good Times",
+      "brand:wikidata": "Q1143589",
+      "brand:wikipedia": "en:Good Times Burgers & Frozen Custard",
+      "cuisine": "burger;ice_cream",
+      "name": "Good Times",
+      "official_name": "Good Times Burgers & Frozen Custard",
       "takeaway": "yes"
     }
   },
@@ -854,6 +1002,30 @@
       "brand:wikipedia": "en:Greenwich Pizza",
       "cuisine": "pizza",
       "name": "Greenwich",
+      "takeaway": "yes"
+    }
+  },
+  "amenity/fast_food|Greggs": {
+    "countryCodes": ["gb"],
+    "tags": {
+      "amenity": "fast_food",
+      "brand": "Greggs",
+      "brand:wikidata": "Q3403981",
+      "brand:wikipedia": "en:Greggs",
+      "cuisine": "sandwich;bakery",
+      "name": "Greggs",
+      "takeaway": "yes"
+    }
+  },
+  "amenity/fast_food|Grill'd": {
+    "countryCodes": ["au"],
+    "tags": {
+      "amenity": "fast_food",
+      "brand": "Grill'd",
+      "brand:wikidata": "Q18165852",
+      "brand:wikipedia": "en:Grill'd",
+      "cuisine": "burger",
+      "name": "Grill'd",
       "takeaway": "yes"
     }
   },
@@ -889,6 +1061,18 @@
       "brand:wikipedia": "en:Hardee's",
       "cuisine": "burger",
       "name": "Hardee's",
+      "takeaway": "yes"
+    }
+  },
+  "amenity/fast_food|Harry Ramsden's": {
+    "countryCodes": ["gb", "ie"],
+    "tags": {
+      "amenity": "fast_food",
+      "brand": "Harry Ramsden's",
+      "brand:wikidata": "Q5671849",
+      "brand:wikipedia": "en:Harry Ramsden's",
+      "cuisine": "fish_and_chips",
+      "name": "Harry Ramsden's",
       "takeaway": "yes"
     }
   },
@@ -950,6 +1134,22 @@
       "takeaway": "yes"
     }
   },
+  "amenity/fast_food|Honey Baked Ham": {
+    "countryCodes": ["us"],
+    "matchNames": ["honey baked ham company"],
+    "matchTags": ["shop/butcher", "shop/deli"],
+    "tags": {
+      "alt_name": "HoneyBaked Ham",
+      "amenity": "fast_food",
+      "brand": "Honey Baked Ham",
+      "brand:wikidata": "Q5893363",
+      "brand:wikipedia": "en:The Honey Baked Ham Company",
+      "cuisine": "american",
+      "name": "Honey Baked Ham",
+      "official_name": "The Honey Baked Ham Company",
+      "takeaway": "yes"
+    }
+  },
   "amenity/fast_food|Hot Dog on a Stick": {
     "countryCodes": ["us"],
     "tags": {
@@ -997,6 +1197,17 @@
       "brand:wikipedia": "en:Hungry Jack's",
       "cuisine": "burger",
       "name": "Hungry Jacks",
+      "takeaway": "yes"
+    }
+  },
+  "amenity/fast_food|IKEA Restaurant": {
+    "tags": {
+      "amenity": "fast_food",
+      "brand": "IKEA",
+      "brand:wikidata": "Q54078",
+      "brand:wikipedia": "en:IKEA",
+      "cuisine": "swedish",
+      "name": "IKEA Restaurant",
       "takeaway": "yes"
     }
   },
@@ -1070,6 +1281,7 @@
       "brand:wikipedia": "en:Jimmy John's",
       "cuisine": "sandwich",
       "name": "Jimmy John's",
+      "official_name": "Jimmy John's Gourmet Sandwiches",
       "takeaway": "yes"
     }
   },
@@ -1192,6 +1404,18 @@
       "takeaway": "yes"
     }
   },
+  "amenity/fast_food|Kudu": {
+    "countryCodes": ["bh", "jo", "sa"],
+    "tags": {
+      "amenity": "fast_food",
+      "brand": "Kudu",
+      "brand:wikidata": "Q6441777",
+      "brand:wikipedia": "en:Kudu (restaurant)",
+      "cuisine": "sandwich",
+      "name": "Kudu",
+      "takeaway": "yes"
+    }
+  },
   "amenity/fast_food|L&L Drive-Inn~(Hawaii)": {
     "countryCodes": ["us"],
     "matchNames": ["l&l", "l&l drive-in"],
@@ -1215,6 +1439,23 @@
       "brand:wikipedia": "en:L&L Hawaiian Barbecue",
       "cuisine": "hawaiian",
       "name": "L&L Hawaiian Barbecue",
+      "takeaway": "yes"
+    }
+  },
+  "amenity/fast_food|LEON": {
+    "countryCodes": [
+      "ch",
+      "gb",
+      "ie",
+      "nl",
+      "us"
+    ],
+    "tags": {
+      "amenity": "fast_food",
+      "brand": "LEON",
+      "brand:wikidata": "Q6524851",
+      "brand:wikipedia": "en:Leon Restaurants",
+      "name": "LEON",
       "takeaway": "yes"
     }
   },
@@ -1439,6 +1680,18 @@
       "takeaway": "yes"
     }
   },
+  "amenity/fast_food|Morley's": {
+    "countryCodes": ["gb"],
+    "tags": {
+      "amenity": "fast_food",
+      "brand": "Morley's",
+      "brand:wikidata": "Q21008528",
+      "brand:wikipedia": "en:Morley's",
+      "cuisine": "chicken",
+      "name": "Morley's",
+      "takeaway": "yes"
+    }
+  },
   "amenity/fast_food|Mr. Sub": {
     "tags": {
       "amenity": "fast_food",
@@ -1458,6 +1711,31 @@
       "brand:wikidata": "Q65148332",
       "cuisine": "mexican",
       "name": "Mucho Burrito",
+      "takeaway": "yes"
+    }
+  },
+  "amenity/fast_food|Nathan's": {
+    "countryCodes": ["us"],
+    "matchNames": ["nathans famous"],
+    "tags": {
+      "amenity": "fast_food",
+      "brand": "Nathan's",
+      "brand:wikidata": "Q1319505",
+      "brand:wikipedia": "en:Nathan's Famous",
+      "cuisine": "hot_dog",
+      "name": "Nathan's",
+      "takeaway": "yes"
+    }
+  },
+  "amenity/fast_food|Nestlé Toll House Café": {
+    "countryCodes": ["us"],
+    "tags": {
+      "amenity": "fast_food",
+      "brand": "Nestlé Toll House Café",
+      "brand:wikidata": "Q6997922",
+      "brand:wikipedia": "en:Nestlé Toll House Café",
+      "cuisine": "dessert",
+      "name": "Nestlé Toll House Café",
       "takeaway": "yes"
     }
   },
@@ -1529,7 +1807,7 @@
       "brand": "Num Pang",
       "brand:wikidata": "Q62079702",
       "brand:wikipedia": "en:Num Pang",
-      "cuisine": "cambodian, sandwich",
+      "cuisine": "cambodian;sandwich",
       "name": "Num Pang",
       "takeaway": "yes"
     }
@@ -1567,6 +1845,19 @@
       "brand:wikipedia": "en:Orange Julius",
       "cuisine": "juice",
       "name": "Orange Julius",
+      "takeaway": "yes"
+    }
+  },
+  "amenity/fast_food|P. Terry's": {
+    "countryCodes": ["us"],
+    "tags": {
+      "amenity": "fast_food",
+      "brand": "P. Terry's",
+      "brand:wikidata": "Q19903521",
+      "brand:wikipedia": "en:P. Terry's",
+      "cuisine": "burger",
+      "name": "P. Terry's",
+      "official_name": "P. Terry's Burger Stand",
       "takeaway": "yes"
     }
   },
@@ -1614,7 +1905,7 @@
       "brand": "Panera Bread",
       "brand:wikidata": "Q7130852",
       "brand:wikipedia": "en:Panera Bread",
-      "cuisine": "sandwich",
+      "cuisine": "sandwich;bakery",
       "name": "Panera Bread",
       "short_name": "Panera",
       "takeaway": "yes"
@@ -1637,6 +1928,18 @@
       "brand:wikipedia": "nl:Panos",
       "cuisine": "sandwich",
       "name": "Panos",
+      "takeaway": "yes"
+    }
+  },
+  "amenity/fast_food|Pans & Company": {
+    "countryCodes": ["es", "it", "pt"],
+    "tags": {
+      "amenity": "fast_food",
+      "brand": "Pans & Company",
+      "brand:wikidata": "Q11697586",
+      "brand:wikipedia": "es:Pans & Company",
+      "cuisine": "sandwich",
+      "name": "Pans & Company",
       "takeaway": "yes"
     }
   },
@@ -1789,6 +2092,18 @@
       "takeaway": "yes"
     }
   },
+  "amenity/fast_food|Pizza Móvil": {
+    "countryCodes": ["es"],
+    "tags": {
+      "amenity": "fast_food",
+      "brand": "Pizza Móvil",
+      "brand:wikidata": "Q12397697",
+      "brand:wikipedia": "gl:Pizza Móvil",
+      "cuisine": "pizza",
+      "name": "Pizza Móvil",
+      "takeaway": "yes"
+    }
+  },
   "amenity/fast_food|Pizza Nova": {
     "tags": {
       "amenity": "fast_food",
@@ -1820,6 +2135,16 @@
       "brand:wikipedia": "en:Pizza Schmizza",
       "cuisine": "pizza",
       "name": "Pizza Schmizza",
+      "takeaway": "yes"
+    }
+  },
+  "amenity/fast_food|Pizza Tutto": {
+    "countryCodes": ["es"],
+    "tags": {
+      "amenity": "fast_food",
+      "brand": "Pizza Tutto",
+      "cuisine": "pizza",
+      "name": "Pizza Tutto",
       "takeaway": "yes"
     }
   },
@@ -1888,6 +2213,18 @@
       "takeaway": "yes"
     }
   },
+  "amenity/fast_food|Portillo's": {
+    "countryCodes": ["us"],
+    "tags": {
+      "amenity": "fast_food",
+      "brand": "Portillo's",
+      "brand:wikidata": "Q3399307",
+      "brand:wikipedia": "en:Portillo's Restaurants",
+      "cuisine": "hot_dog;burger",
+      "name": "Portillo's",
+      "takeaway": "yes"
+    }
+  },
   "amenity/fast_food|Potbelly": {
     "countryCodes": ["us"],
     "matchNames": ["potbelly sandwich shop"],
@@ -1903,7 +2240,18 @@
     }
   },
   "amenity/fast_food|Pret A Manger": {
-    "countryCodes": ["gb", "us"],
+    "countryCodes": [
+      "ae",
+      "cn",
+      "de",
+      "dk",
+      "fr",
+      "gb",
+      "hk",
+      "nl",
+      "sg",
+      "us"
+    ],
     "tags": {
       "amenity": "fast_food",
       "brand": "Pret A Manger",
@@ -1911,6 +2259,7 @@
       "brand:wikipedia": "en:Pret a Manger",
       "cuisine": "sandwich",
       "name": "Pret A Manger",
+      "short_name": "Pret",
       "takeaway": "yes"
     }
   },
@@ -2012,6 +2361,19 @@
       "takeaway": "yes"
     }
   },
+  "amenity/fast_food|Robin's Donuts": {
+    "countryCodes": ["ca"],
+    "tags": {
+      "amenity": "fast_food",
+      "brand": "Robin's Donuts",
+      "brand:wikidata": "Q7352199",
+      "brand:wikipedia": "en:Robin's Donuts",
+      "cuisine": "donut",
+      "name": "Robin's Donuts",
+      "short_name": "Robin's",
+      "takeaway": "yes"
+    }
+  },
   "amenity/fast_food|Roy Rogers": {
     "countryCodes": ["us"],
     "tags": {
@@ -2077,7 +2439,7 @@
     }
   },
   "amenity/fast_food|Sbarro": {
-    "matchNames": ["Sbarro Pizzeria"],
+    "matchNames": ["sbarro pizzeria"],
     "tags": {
       "amenity": "fast_food",
       "brand": "Sbarro",
@@ -2098,6 +2460,18 @@
       "brand:wikipedia": "en:Schlotzsky's",
       "cuisine": "sandwich",
       "name": "Schlotzsky's",
+      "takeaway": "yes"
+    }
+  },
+  "amenity/fast_food|Schnitz": {
+    "countryCodes": ["au"],
+    "tags": {
+      "amenity": "fast_food",
+      "brand": "Schnitz",
+      "brand:wikidata": "Q48792277",
+      "brand:wikipedia": "en:Schnitz",
+      "cuisine": "chicken",
+      "name": "Schnitz",
       "takeaway": "yes"
     }
   },
@@ -2181,7 +2555,7 @@
       "amenity": "fast_food",
       "brand": "St-Hubert",
       "brand:wikidata": "Q3495225",
-      "brand:wikipedia": "en:St-Hubert",
+      "brand:wikipedia": "fr:St-Hubert (restaurant)",
       "cuisine": "chicken;barbecue",
       "name": "St-Hubert Express",
       "takeaway": "yes"
@@ -2231,6 +2605,25 @@
       "brand:wikipedia": "en:Subway (restaurant)",
       "cuisine": "sandwich",
       "name": "Subway",
+      "takeaway": "yes"
+    }
+  },
+  "amenity/fast_food|Sumo Salad": {
+    "countryCodes": [
+      "ae",
+      "au",
+      "br",
+      "nz",
+      "sg",
+      "us"
+    ],
+    "tags": {
+      "amenity": "fast_food",
+      "brand": "Sumo Salad",
+      "brand:wikidata": "Q16951700",
+      "brand:wikipedia": "en:Sumo Salad",
+      "cuisine": "salad",
+      "name": "Sumo Salad",
       "takeaway": "yes"
     }
   },
@@ -2316,6 +2709,18 @@
       "takeaway": "yes"
     }
   },
+  "amenity/fast_food|Taco Mayo": {
+    "countryCodes": ["us"],
+    "tags": {
+      "amenity": "fast_food",
+      "brand": "Taco Mayo",
+      "brand:wikidata": "Q2386946",
+      "brand:wikipedia": "en:Taco Mayo",
+      "cuisine": "tex-mex",
+      "name": "Taco Mayo",
+      "takeaway": "yes"
+    }
+  },
   "amenity/fast_food|Taco Time": {
     "countryCodes": ["ca", "us"],
     "tags": {
@@ -2335,7 +2740,7 @@
       "brand": "Ted's Hot Dogs",
       "brand:wikidata": "Q7692930",
       "brand:wikipedia": "en:Ted's Hot Dogs",
-      "cuisine": "sausage",
+      "cuisine": "hot_dog",
       "name": "Ted's Hot Dogs",
       "takeaway": "yes"
     }
@@ -2427,6 +2832,19 @@
     }
   },
   "amenity/fast_food|The Pizza Company": {
+    "countryCodes": [
+      "ae",
+      "bh",
+      "cn",
+      "jo",
+      "kh",
+      "la",
+      "mm",
+      "my",
+      "sa",
+      "th",
+      "vn"
+    ],
     "tags": {
       "alt_name": "Pizza Company",
       "amenity": "fast_food",
@@ -2468,7 +2886,7 @@
       "amenity": "fast_food",
       "brand": "Valentine",
       "brand:wikidata": "Q3553635",
-      "brand:wikipedia": "en:Groupe Valentine Inc.",
+      "brand:wikipedia": "fr:Valentine (restaurant)",
       "cuisine": "burger",
       "name": "Valentine",
       "takeaway": "yes"
@@ -2511,6 +2929,17 @@
       "takeaway": "yes"
     }
   },
+  "amenity/fast_food|Wayback Burgers": {
+    "tags": {
+      "amenity": "fast_food",
+      "brand": "Wayback Burgers",
+      "brand:wikidata": "Q16997570",
+      "brand:wikipedia": "en:Wayback Burgers",
+      "cuisine": "burger",
+      "name": "Wayback Burgers",
+      "takeaway": "yes"
+    }
+  },
   "amenity/fast_food|Wendy's": {
     "tags": {
       "amenity": "fast_food",
@@ -2519,6 +2948,18 @@
       "brand:wikipedia": "en:Wendy's",
       "cuisine": "burger",
       "name": "Wendy's",
+      "takeaway": "yes"
+    }
+  },
+  "amenity/fast_food|Wetzel's Pretzels": {
+    "countryCodes": ["ca", "us"],
+    "tags": {
+      "amenity": "fast_food",
+      "brand": "Wetzel's Pretzels",
+      "brand:wikidata": "Q7990205",
+      "brand:wikipedia": "en:Wetzel's Pretzels",
+      "cuisine": "pretzel",
+      "name": "Wetzel's Pretzels",
       "takeaway": "yes"
     }
   },
@@ -2590,6 +3031,30 @@
       "takeaway": "yes"
     }
   },
+  "amenity/fast_food|WingStreet": {
+    "countryCodes": ["au", "ca", "cy", "us"],
+    "tags": {
+      "amenity": "fast_food",
+      "brand": "WingStreet",
+      "brand:wikidata": "Q946630",
+      "brand:wikipedia": "en:WingStreet",
+      "cuisine": "wings",
+      "name": "WingStreet",
+      "takeaway": "yes"
+    }
+  },
+  "amenity/fast_food|Wingstop": {
+    "countryCodes": ["mx", "us"],
+    "tags": {
+      "amenity": "fast_food",
+      "brand": "Wingstop",
+      "brand:wikidata": "Q8025339",
+      "brand:wikipedia": "en:Wingstop",
+      "cuisine": "wings",
+      "name": "Wingstop",
+      "takeaway": "yes"
+    }
+  },
   "amenity/fast_food|Xi'an Famous Foods": {
     "countryCodes": ["us"],
     "tags": {
@@ -2650,6 +3115,18 @@
       "takeaway": "yes"
     }
   },
+  "amenity/fast_food|itsu": {
+    "countryCodes": ["gb", "us"],
+    "tags": {
+      "amenity": "fast_food",
+      "brand": "itsu",
+      "brand:wikidata": "Q6094914",
+      "brand:wikipedia": "en:Itsu",
+      "cuisine": "asian",
+      "name": "itsu",
+      "takeaway": "yes"
+    }
+  },
   "amenity/fast_food|Γρηγόρης": {
     "countryCodes": ["gr"],
     "tags": {
@@ -2681,21 +3158,19 @@
       "takeaway": "yes"
     }
   },
-  "amenity/fast_food|Домино'c Пицца": {
+  "amenity/fast_food|Домино'c": {
+    "matchNames": ["доминоc пицца"],
     "tags": {
       "amenity": "fast_food",
-      "brand": "Домино'c Пицца",
-      "brand:en": "Domino's Pizza",
-      "brand:ru": "Домино'c Пицца",
+      "brand": "Домино'c",
+      "brand:en": "Domino's",
+      "brand:ru": "Домино'c",
       "brand:wikidata": "Q839466",
       "brand:wikipedia": "ru:Domino’s Pizza",
       "cuisine": "pizza",
-      "name": "Домино'c Пицца",
-      "name:en": "Domino's Pizza",
-      "name:ru": "Домино'c Пицца",
-      "short_name": "Домино'c",
-      "short_name:en": "Domino's",
-      "short_name:ru": "Домино'c",
+      "name": "Домино'c",
+      "name:en": "Domino's",
+      "name:ru": "Домино'c",
       "takeaway": "yes"
     }
   },
@@ -2743,6 +3218,28 @@
       "name": "Папа Джонс",
       "name:en": "Papa John's",
       "name:ru": "Папа Джонс",
+      "takeaway": "yes"
+    }
+  },
+  "amenity/fast_food|Пузата хата": {
+    "countryCodes": ["ru"],
+    "matchTags": [
+      "amenity/cafe",
+      "amenity/restaurant"
+    ],
+    "tags": {
+      "amenity": "fast_food",
+      "brand": "Пузата Хата",
+      "brand:en": "Puzata hata",
+      "brand:ru": "Пузата Хата",
+      "brand:ua": "Пузата Хата",
+      "brand:wikidata": "Q11832009",
+      "brand:wikipedia": "ua:Пузата Хата",
+      "cuisine": "ukrainian;western",
+      "name": "Пузата Хата",
+      "name:en": "Puzata hata",
+      "name:ru": "Пузата Хата",
+      "name:ua": "Пузата Хата",
       "takeaway": "yes"
     }
   },
@@ -3162,22 +3659,20 @@
       "takeaway": "yes"
     }
   },
-  "amenity/fast_food|ドミノ・ピザ": {
+  "amenity/fast_food|ドミノ": {
     "countryCodes": ["jp"],
+    "matchNames": ["ドミノ・ピザ"],
     "tags": {
       "amenity": "fast_food",
-      "brand": "ドミノ・ピザ",
-      "brand:en": "Domino's Pizza",
-      "brand:ja": "ドミノ・ピザ",
+      "brand": "ドミノ",
+      "brand:en": "Domino's",
+      "brand:ja": "ドミノ",
       "brand:wikidata": "Q839466",
       "brand:wikipedia": "ja:ドミノ・ピザ",
       "cuisine": "pizza",
-      "name": "ドミノ・ピザ",
-      "name:en": "Domino's Pizza",
-      "name:ja": "ドミノ・ピザ",
-      "short_name": "ドミノ",
-      "short_name:en": "Domino's",
-      "short_name:ja": "ドミノ",
+      "name": "ドミノ",
+      "name:en": "Domino's",
+      "name:ja": "ドミノ",
       "takeaway": "yes"
     }
   },

@@ -1,4 +1,14 @@
 {
+  "shop/convenience|10-11": {
+    "countryCodes": ["is"],
+    "tags": {
+      "brand": "10-11",
+      "brand:wikidata": "Q65336720",
+      "brand:wikipedia": "is:10-11",
+      "name": "10-11",
+      "shop": "convenience"
+    }
+  },
   "shop/convenience|1st Stop": {
     "countryCodes": ["us"],
     "matchNames": ["first stop"],
@@ -9,11 +19,15 @@
       "shop": "convenience"
     }
   },
-  "shop/convenience|24 часа": {
-    "countryCodes": ["by", "kz", "ru", "ua"],
+  "shop/convenience|3COINS": {
+    "countryCodes": ["jp"],
+    "matchNames": ["スリーコインズ"],
     "tags": {
-      "brand": "24 часа",
-      "name": "24 часа",
+      "alt_name": "スリーコインズ",
+      "brand": "3COINS",
+      "brand:wikidata": "Q60997353",
+      "brand:wikipedia": "ja:3COINS",
+      "name": "3COINS",
       "shop": "convenience"
     }
   },
@@ -26,6 +40,16 @@
       "brand:wikidata": "Q259340",
       "brand:wikipedia": "en:7-Eleven",
       "name": "7-Eleven",
+      "shop": "convenience"
+    }
+  },
+  "shop/convenience|759 Store": {
+    "countryCodes": ["hk"],
+    "tags": {
+      "brand": "759 Store",
+      "brand:wikidata": "Q10846179",
+      "brand:wikipedia": "en:759 Store",
+      "name": "759 Store",
       "shop": "convenience"
     }
   },
@@ -101,16 +125,6 @@
       "shop": "convenience"
     }
   },
-  "shop/convenience|Alfamart": {
-    "countryCodes": ["id"],
-    "tags": {
-      "brand": "Alfamart",
-      "brand:wikidata": "Q23745600",
-      "brand:wikipedia": "id:Alfamart",
-      "name": "Alfamart",
-      "shop": "convenience"
-    }
-  },
   "shop/convenience|Alfamidi": {
     "countryCodes": ["id"],
     "tags": {
@@ -118,6 +132,13 @@
       "brand:wikidata": "Q12471462",
       "brand:wikipedia": "id:Alfamidi",
       "name": "Alfamidi",
+      "shop": "convenience"
+    }
+  },
+  "shop/convenience|Allsup's": {
+    "tags": {
+      "brand": "Allsup's",
+      "name": "Allsup's",
       "shop": "convenience"
     }
   },
@@ -141,6 +162,17 @@
       "brand": "AmeriStop",
       "brand:wikidata": "Q66048258",
       "name": "AmeriStop",
+      "shop": "convenience"
+    }
+  },
+  "shop/convenience|Amoco": {
+    "countryCodes": ["us"],
+    "nomatch": ["amenity/fuel|Amoco"],
+    "tags": {
+      "brand": "Amoco",
+      "brand:wikidata": "Q465952",
+      "brand:wikipedia": "en:Amoco",
+      "name": "Amoco",
       "shop": "convenience"
     }
   },
@@ -212,6 +244,7 @@
     }
   },
   "shop/convenience|CBA": {
+    "nomatch": ["shop/supermarket|CBA"],
     "tags": {
       "brand": "CBA",
       "brand:wikidata": "Q779845",
@@ -474,6 +507,15 @@
       "shop": "convenience"
     }
   },
+  "shop/convenience|Dari Mart": {
+    "tags": {
+      "brand": "Dari Mart",
+      "brand:wikidata": "Q5222675",
+      "brand:wikipedia": "en:Dari Mart",
+      "name": "Dari Mart",
+      "shop": "convenience"
+    }
+  },
   "shop/convenience|Delikatesy Centrum": {
     "countryCodes": ["pl"],
     "nomatch": [
@@ -606,6 +648,20 @@
       "brand": "Hruška",
       "name": "Hruška",
       "shop": "convenience"
+    }
+  },
+  "shop/convenience|Huck's Food & Fuel": {
+    "countryCodes": ["us"],
+    "nomatch": [
+      "amenity/fuel|Huck's Food & Fuel"
+    ],
+    "tags": {
+      "brand": "Huck's Food & Fuel",
+      "brand:wikidata": "Q56276328",
+      "brand:wikipedia": "en:Huck's Food & Fuel",
+      "name": "Huck's Food & Fuel",
+      "shop": "convenience",
+      "short_name": "Huck's"
     }
   },
   "shop/convenience|Hudson": {
@@ -778,6 +834,13 @@
       "shop": "convenience"
     }
   },
+  "shop/convenience|La Vie Claire": {
+    "tags": {
+      "brand": "La Vie Claire",
+      "name": "La Vie Claire",
+      "shop": "convenience"
+    }
+  },
   "shop/convenience|Lawson": {
     "tags": {
       "brand": "Lawson",
@@ -804,6 +867,16 @@
       "brand": "Lifestyle Express",
       "brand:wikidata": "Q61994869",
       "name": "Lifestyle Express",
+      "shop": "convenience"
+    }
+  },
+  "shop/convenience|Little Waitrose": {
+    "countryCodes": ["gb", "je"],
+    "tags": {
+      "brand": "Little Waitrose",
+      "brand:wikidata": "Q771734",
+      "brand:wikipedia": "en:Waitrose & Partners",
+      "name": "Little Waitrose",
       "shop": "convenience"
     }
   },
@@ -844,12 +917,22 @@
       "shop": "convenience"
     }
   },
+  "shop/convenience|Lonia": {
+    "tags": {
+      "brand": "Lonia",
+      "name": "Lonia",
+      "shop": "convenience"
+    }
+  },
   "shop/convenience|M&S Simply Food": {
+    "matchNames": ["marks & spencer simply food"],
     "nomatch": [
       "shop/supermarket|M&S Simply Food"
     ],
     "tags": {
       "brand": "M&S Simply Food",
+      "brand:wikidata": "Q714491",
+      "brand:wikipedia": "en:Marks & Spencer",
       "name": "M&S Simply Food",
       "shop": "convenience"
     }
@@ -862,13 +945,52 @@
       "shop": "convenience"
     }
   },
-  "shop/convenience|Mace": {
-    "countryCodes": ["gb", "ie"],
+  "shop/convenience|Mace~(Ireland)": {
+    "countryCodes": ["ie"],
+    "nomatch": [
+      "shop/convenience|Mace~(Northern Ireland)",
+      "shop/convenience|Mace~(UK)"
+    ],
     "tags": {
       "brand": "Mace",
-      "brand:wikidata": "Q17089386",
+      "brand:wikidata": "Q75236910",
       "brand:wikipedia": "en:Mace (shop)",
       "name": "Mace",
+      "shop": "convenience"
+    }
+  },
+  "shop/convenience|Mace~(Northern Ireland)": {
+    "countryCodes": ["gb"],
+    "nomatch": [
+      "shop/convenience|Mace~(Ireland)",
+      "shop/convenience|Mace~(UK)"
+    ],
+    "tags": {
+      "brand": "Mace",
+      "brand:wikidata": "Q75238536",
+      "brand:wikipedia": "en:Mace (shop)",
+      "name": "Mace",
+      "shop": "convenience"
+    }
+  },
+  "shop/convenience|Mace~(UK)": {
+    "countryCodes": ["gb"],
+    "nomatch": [
+      "shop/convenience|Mace~(Ireland)",
+      "shop/convenience|Mace~(Northern Ireland)"
+    ],
+    "tags": {
+      "brand": "Mace",
+      "brand:wikidata": "Q75240338",
+      "brand:wikipedia": "en:Mace (shop)",
+      "name": "Mace",
+      "shop": "convenience"
+    }
+  },
+  "shop/convenience|Maisto prekės": {
+    "tags": {
+      "brand": "Maisto prekės",
+      "name": "Maisto prekės",
       "shop": "convenience"
     }
   },
@@ -970,6 +1092,18 @@
       "brand:wikidata": "Q3088656",
       "brand:wikipedia": "en:Mobil",
       "name": "Mobil Mart",
+      "shop": "convenience"
+    }
+  },
+  "shop/convenience|MrMax": {
+    "countryCodes": ["jp"],
+    "matchNames": ["ミスターマックス"],
+    "tags": {
+      "alt_name": "ミスターマックス",
+      "brand": "MrMax",
+      "brand:wikidata": "Q11342034",
+      "brand:wikipedia": "ja:ミスターマックス",
+      "name": "MrMax",
       "shop": "convenience"
     }
   },
@@ -1177,8 +1311,11 @@
   },
   "shop/convenience|QuickChek": {
     "countryCodes": ["us"],
+    "nomatch": ["amenity/fuel|QuickChek"],
     "tags": {
       "brand": "QuickChek",
+      "brand:wikidata": "Q7271689",
+      "brand:wikipedia": "en:QuickChek",
       "name": "QuickChek",
       "shop": "convenience"
     }
@@ -1187,8 +1324,11 @@
     "nomatch": ["amenity/fuel|QuikTrip"],
     "tags": {
       "brand": "QuikTrip",
+      "brand:wikidata": "Q7271953",
+      "brand:wikipedia": "en:QuikTrip",
       "name": "QuikTrip",
-      "shop": "convenience"
+      "shop": "convenience",
+      "short_name": "QT"
     }
   },
   "shop/convenience|Rabat": {
@@ -1209,6 +1349,30 @@
       "shop": "convenience"
     }
   },
+  "shop/convenience|RaceWay": {
+    "countryCodes": ["us"],
+    "nomatch": ["amenity/fuel|RaceWay"],
+    "tags": {
+      "brand": "RaceWay",
+      "brand:wikidata": "Q73039084",
+      "name": "RaceWay",
+      "shop": "convenience"
+    }
+  },
+  "shop/convenience|Rewe To Go": {
+    "countryCodes": ["de"],
+    "nomatch": [
+      "shop/supermarket|Rewe",
+      "shop/supermarket|Rewe City"
+    ],
+    "tags": {
+      "brand": "Rewe To Go",
+      "brand:wikidata": "Q16968817",
+      "brand:wikipedia": "en:REWE",
+      "name": "Rewe To Go",
+      "shop": "convenience"
+    }
+  },
   "shop/convenience|Royal Farms": {
     "countryCodes": ["us"],
     "nomatch": ["amenity/fuel|Royal Farms"],
@@ -1222,6 +1386,7 @@
   },
   "shop/convenience|Rutter's": {
     "countryCodes": ["us"],
+    "nomatch": ["amenity/fuel|Rutter's"],
     "tags": {
       "brand": "Rutter's",
       "brand:wikidata": "Q7383544",
@@ -1538,6 +1703,22 @@
       "shop": "convenience"
     }
   },
+  "shop/convenience|United": {
+    "countryCodes": ["au"],
+    "matchNames": ["united petroleum"],
+    "nomatch": [
+      "amenity/bank|United Bank~(Connecticut)",
+      "amenity/bank|United Bank~(West Virginia)",
+      "amenity/fuel|United"
+    ],
+    "tags": {
+      "brand": "United",
+      "brand:wikidata": "Q28224393",
+      "brand:wikipedia": "en:United Petroleum",
+      "name": "United",
+      "shop": "convenience"
+    }
+  },
   "shop/convenience|United Dairy Farmers": {
     "countryCodes": ["us"],
     "matchTags": [
@@ -1601,13 +1782,6 @@
       "brand:wikidata": "Q7937525",
       "brand:wikipedia": "en:Vival (shop)",
       "name": "Vival",
-      "shop": "convenience"
-    }
-  },
-  "shop/convenience|Volg": {
-    "tags": {
-      "brand": "Volg",
-      "name": "Volg",
       "shop": "convenience"
     }
   },
@@ -1680,11 +1854,9 @@
   },
   "shop/convenience|uSmile 昆仑好": {
     "countryCodes": ["cn"],
-    "matchNames": ["uSmile 便利店", "昆仑好"],
-    "matchTags": [
-      "amenity/fuel",
-      "shop/supermarket"
-    ],
+    "matchNames": ["usmile", "usmile 便利店", "昆仑好"],
+    "matchTags": ["shop/supermarket"],
+    "nomatch": ["amenity/fuel|uSmile 昆仑好"],
     "tags": {
       "brand": "uSmile 昆仑好",
       "brand:en": "uSmile",
@@ -1715,6 +1887,7 @@
     }
   },
   "shop/convenience|АТБ": {
+    "countryCodes": ["ua"],
     "tags": {
       "brand": "АТБ",
       "name": "АТБ",
@@ -1722,6 +1895,8 @@
     }
   },
   "shop/convenience|Абсолют": {
+    "countryCodes": ["ru"],
+    "matchNames": ["абсолют cash&carry"],
     "tags": {
       "brand": "Абсолют",
       "name": "Абсолют",
@@ -1729,6 +1904,7 @@
     }
   },
   "shop/convenience|Авоська": {
+    "countryCodes": ["ru"],
     "tags": {
       "brand": "Авоська",
       "name": "Авоська",
@@ -1743,47 +1919,11 @@
       "shop": "convenience"
     }
   },
-  "shop/convenience|Альянс": {
-    "countryCodes": ["by", "kg", "ru", "ua"],
+  "shop/convenience|Ассорти-продукт": {
+    "countryCodes": ["ru"],
     "tags": {
-      "brand": "Альянс",
-      "name": "Альянс",
-      "shop": "convenience"
-    }
-  },
-  "shop/convenience|Апельсин": {
-    "countryCodes": [
-      "by",
-      "kg",
-      "kz",
-      "ru",
-      "ua"
-    ],
-    "tags": {
-      "brand": "Апельсин",
-      "name": "Апельсин",
-      "shop": "convenience"
-    }
-  },
-  "shop/convenience|Ассорти": {
-    "countryCodes": [
-      "by",
-      "kg",
-      "kz",
-      "ru",
-      "ua"
-    ],
-    "tags": {
-      "brand": "Ассорти",
-      "name": "Ассорти",
-      "shop": "convenience"
-    }
-  },
-  "shop/convenience|Березка": {
-    "countryCodes": ["by", "kz", "ru", "ua"],
-    "tags": {
-      "brand": "Березка",
-      "name": "Березка",
+      "brand": "Ассорти-продукт",
+      "name": "Ассорти-продукт",
       "shop": "convenience"
     }
   },
@@ -1792,29 +1932,6 @@
     "tags": {
       "brand": "Береке",
       "name": "Береке",
-      "shop": "convenience"
-    }
-  },
-  "shop/convenience|Берёзка": {
-    "tags": {
-      "brand": "Берёзка",
-      "name": "Берёзка",
-      "shop": "convenience"
-    }
-  },
-  "shop/convenience|Бриз": {
-    "countryCodes": ["by", "kz", "ru", "ua"],
-    "tags": {
-      "brand": "Бриз",
-      "name": "Бриз",
-      "shop": "convenience"
-    }
-  },
-  "shop/convenience|Валентина": {
-    "countryCodes": ["by", "kz", "ru", "ua"],
-    "tags": {
-      "brand": "Валентина",
-      "name": "Валентина",
       "shop": "convenience"
     }
   },
@@ -1827,6 +1944,7 @@
     }
   },
   "shop/convenience|Верный": {
+    "countryCodes": ["ru"],
     "tags": {
       "brand": "Верный",
       "name": "Верный",
@@ -1843,55 +1961,23 @@
       "shop": "convenience"
     }
   },
-  "shop/convenience|Водолей": {
+  "shop/convenience|Гастрономчикъ": {
+    "countryCodes": ["ru"],
+    "matchNames": ["гастрономчик"],
     "tags": {
-      "brand": "Водолей",
-      "name": "Водолей",
-      "shop": "convenience"
-    }
-  },
-  "shop/convenience|Гастроном": {
-    "tags": {
-      "brand": "Гастроном",
-      "name": "Гастроном",
-      "shop": "convenience"
-    }
-  },
-  "shop/convenience|Гастрономчик": {
-    "tags": {
-      "brand": "Гастрономчик",
-      "name": "Гастрономчик",
-      "shop": "convenience"
-    }
-  },
-  "shop/convenience|Гермес": {
-    "tags": {
-      "brand": "Гермес",
-      "name": "Гермес",
+      "brand": "Гастрономчикъ",
+      "name": "Гастрономчикъ",
       "shop": "convenience"
     }
   },
   "shop/convenience|Гроздь": {
+    "countryCodes": ["ru"],
     "nomatch": ["shop/supermarketk|Гроздь"],
     "tags": {
       "brand": "Гроздь",
       "brand:wikidata": "Q21638412",
       "brand:wikipedia": "ru:Гроздь (сеть магазинов)",
       "name": "Гроздь",
-      "shop": "convenience"
-    }
-  },
-  "shop/convenience|Гурман": {
-    "tags": {
-      "brand": "Гурман",
-      "name": "Гурман",
-      "shop": "convenience"
-    }
-  },
-  "shop/convenience|Диана": {
-    "tags": {
-      "brand": "Диана",
-      "name": "Диана",
       "shop": "convenience"
     }
   },
@@ -1905,25 +1991,9 @@
       "shop": "convenience"
     }
   },
-  "shop/convenience|Добрый": {
-    "countryCodes": ["by", "ru"],
-    "tags": {
-      "brand": "Добрый",
-      "name": "Добрый",
-      "shop": "convenience"
-    }
-  },
-  "shop/convenience|Дружба": {
-    "countryCodes": ["by", "ru", "ua"],
-    "tags": {
-      "brand": "Дружба",
-      "name": "Дружба",
-      "shop": "convenience"
-    }
-  },
   "shop/convenience|Евроопт Market": {
     "countryCodes": ["by"],
-    "matchNames": ["Евроопт Маркет"],
+    "matchNames": ["евроопт маркет"],
     "matchTags": ["shop/supermarket"],
     "tags": {
       "brand": "Евроопт Market",
@@ -1934,6 +2004,7 @@
   },
   "shop/convenience|Евроопт Минимаркет": {
     "countryCodes": ["by"],
+    "matchTags": ["shop/supermarket"],
     "tags": {
       "brand": "Евроопт Минимаркет",
       "brand:wikidata": "Q65455911",
@@ -1941,15 +2012,9 @@
       "shop": "convenience"
     }
   },
-  "shop/convenience|Елена": {
-    "tags": {
-      "brand": "Елена",
-      "name": "Елена",
-      "shop": "convenience"
-    }
-  },
   "shop/convenience|Ермолино": {
     "countryCodes": ["ru", "ua"],
+    "matchNames": ["продукты ермолино"],
     "tags": {
       "brand": "Ермолино",
       "name": "Ермолино",
@@ -1964,39 +2029,25 @@
       "shop": "convenience"
     }
   },
-  "shop/convenience|Каштан": {
-    "countryCodes": ["by", "ru", "ua"],
+  "shop/convenience|Квартал вкуса": {
+    "countryCodes": ["by"],
     "tags": {
-      "brand": "Каштан",
-      "name": "Каштан",
-      "shop": "convenience"
-    }
-  },
-  "shop/convenience|Квартал": {
-    "tags": {
-      "brand": "Квартал",
-      "name": "Квартал",
-      "shop": "convenience"
-    }
-  },
-  "shop/convenience|Кооператор": {
-    "countryCodes": ["by", "kz", "ru", "ua"],
-    "tags": {
-      "brand": "Кооператор",
-      "name": "Кооператор",
+      "brand": "Квартал вкуса",
+      "name": "Квартал вкуса",
       "shop": "convenience"
     }
   },
   "shop/convenience|Копеечка": {
-    "countryCodes": ["by", "ru", "ua"],
+    "countryCodes": ["by"],
     "tags": {
       "brand": "Копеечка",
+      "brand:wikidata": "Q68207105",
       "name": "Копеечка",
       "shop": "convenience"
     }
   },
   "shop/convenience|Копейка": {
-    "countryCodes": ["by", "ru", "ua"],
+    "countryCodes": ["ru"],
     "tags": {
       "brand": "Копейка",
       "brand:en": "Kopeyka",
@@ -2007,57 +2058,11 @@
       "shop": "convenience"
     }
   },
-  "shop/convenience|Корзинка": {
-    "countryCodes": ["by", "kz", "ru", "ua"],
-    "tags": {
-      "brand": "Корзинка",
-      "name": "Корзинка",
-      "shop": "convenience"
-    }
-  },
-  "shop/convenience|Кулинария": {
-    "countryCodes": ["by", "kz", "ru", "ua"],
-    "tags": {
-      "brand": "Кулинария",
-      "name": "Кулинария",
-      "shop": "convenience"
-    }
-  },
-  "shop/convenience|Лакомка": {
-    "tags": {
-      "brand": "Лакомка",
-      "name": "Лакомка",
-      "shop": "convenience"
-    }
-  },
   "shop/convenience|Лукойл": {
     "nomatch": ["amenity/fuel|Лукойл"],
     "tags": {
       "brand": "Лукойл",
       "name": "Лукойл",
-      "shop": "convenience"
-    }
-  },
-  "shop/convenience|Луч": {
-    "countryCodes": ["by", "kz", "ru", "ua"],
-    "tags": {
-      "brand": "Луч",
-      "name": "Луч",
-      "shop": "convenience"
-    }
-  },
-  "shop/convenience|Любава": {
-    "countryCodes": ["by", "kz", "ru", "ua"],
-    "tags": {
-      "brand": "Любава",
-      "name": "Любава",
-      "shop": "convenience"
-    }
-  },
-  "shop/convenience|Магазин": {
-    "tags": {
-      "brand": "Магазин",
-      "name": "Магазин",
       "shop": "convenience"
     }
   },
@@ -2089,28 +2094,15 @@
     }
   },
   "shop/convenience|Маяк": {
-    "countryCodes": ["kz", "ru", "ua"],
+    "countryCodes": ["ru"],
     "tags": {
       "brand": "Маяк",
       "name": "Маяк",
       "shop": "convenience"
     }
   },
-  "shop/convenience|Меркурий": {
-    "tags": {
-      "brand": "Меркурий",
-      "name": "Меркурий",
-      "shop": "convenience"
-    }
-  },
-  "shop/convenience|Мини маркет": {
-    "tags": {
-      "brand": "Мини маркет",
-      "name": "Мини маркет",
-      "shop": "convenience"
-    }
-  },
   "shop/convenience|Монетка": {
+    "countryCodes": ["ru"],
     "tags": {
       "brand": "Монетка",
       "name": "Монетка",
@@ -2125,90 +2117,27 @@
       "shop": "convenience"
     }
   },
-  "shop/convenience|Ника": {
-    "countryCodes": ["by", "kz", "ru", "ua"],
+  "shop/convenience|Родны кут": {
     "tags": {
-      "brand": "Ника",
-      "name": "Ника",
+      "brand": "Родны кут",
+      "name": "Родны кут",
       "shop": "convenience"
     }
   },
-  "shop/convenience|Оазис": {
+  "shop/convenience|Руслан": {
     "tags": {
-      "brand": "Оазис",
-      "name": "Оазис",
+      "brand": "Руслан",
+      "name": "Руслан",
       "shop": "convenience"
     }
   },
-  "shop/convenience|Околица": {
-    "countryCodes": ["by", "kz", "ru", "ua"],
+  "shop/convenience|Сильпо": {
+    "countryCodes": ["ua"],
     "tags": {
-      "brand": "Околица",
-      "name": "Околица",
-      "shop": "convenience"
-    }
-  },
-  "shop/convenience|Парус": {
-    "countryCodes": ["by", "kz", "ru", "ua"],
-    "tags": {
-      "brand": "Парус",
-      "name": "Парус",
-      "shop": "convenience"
-    }
-  },
-  "shop/convenience|Пеликан": {
-    "countryCodes": ["by", "ru"],
-    "tags": {
-      "brand": "Пеликан",
-      "name": "Пеликан",
-      "shop": "convenience"
-    }
-  },
-  "shop/convenience|Радуга": {
-    "tags": {
-      "brand": "Радуга",
-      "name": "Радуга",
-      "shop": "convenience"
-    }
-  },
-  "shop/convenience|Русь": {
-    "countryCodes": ["kz", "ru", "ua"],
-    "tags": {
-      "brand": "Русь",
-      "name": "Русь",
-      "shop": "convenience"
-    }
-  },
-  "shop/convenience|Сельпо": {
-    "countryCodes": ["kz", "ru"],
-    "tags": {
-      "brand": "Сельпо",
+      "brand": "Сильпо",
       "brand:wikidata": "Q4419434",
       "brand:wikipedia": "ru:Сильпо",
-      "name": "Сельпо",
-      "shop": "convenience"
-    }
-  },
-  "shop/convenience|Сказка": {
-    "tags": {
-      "brand": "Сказка",
-      "name": "Сказка",
-      "shop": "convenience"
-    }
-  },
-  "shop/convenience|Солнышко": {
-    "countryCodes": ["kz", "ru", "ua"],
-    "tags": {
-      "brand": "Солнышко",
-      "name": "Солнышко",
-      "shop": "convenience"
-    }
-  },
-  "shop/convenience|Тройка": {
-    "countryCodes": ["kz", "ru", "ua"],
-    "tags": {
-      "brand": "Тройка",
-      "name": "Тройка",
+      "name": "Сильпо",
       "shop": "convenience"
     }
   },
@@ -2220,48 +2149,11 @@
       "shop": "convenience"
     }
   },
-  "shop/convenience|Удача": {
-    "tags": {
-      "brand": "Удача",
-      "name": "Удача",
-      "shop": "convenience"
-    }
-  },
   "shop/convenience|Фасоль": {
-    "countryCodes": ["ru", "ua"],
+    "countryCodes": ["ru"],
     "tags": {
       "brand": "Фасоль",
       "name": "Фасоль",
-      "shop": "convenience"
-    }
-  },
-  "shop/convenience|Фортуна": {
-    "tags": {
-      "brand": "Фортуна",
-      "name": "Фортуна",
-      "shop": "convenience"
-    }
-  },
-  "shop/convenience|Хуторок": {
-    "tags": {
-      "brand": "Хуторок",
-      "name": "Хуторок",
-      "shop": "convenience"
-    }
-  },
-  "shop/convenience|Эдем": {
-    "countryCodes": ["by", "ru", "ua"],
-    "tags": {
-      "brand": "Эдем",
-      "name": "Эдем",
-      "shop": "convenience"
-    }
-  },
-  "shop/convenience|Юбилейный": {
-    "countryCodes": ["by", "kz", "ru"],
-    "tags": {
-      "brand": "Юбилейный",
-      "name": "Юбилейный",
       "shop": "convenience"
     }
   },

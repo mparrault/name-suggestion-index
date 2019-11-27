@@ -64,9 +64,22 @@
     }
   },
   "shop/charity|Kirkens Korshær Genbrug": {
+    "countryCodes": ["dk"],
     "tags": {
       "brand": "Kirkens Korshær Genbrug",
+      "brand:wikidata": "Q12321915",
+      "brand:wikipedia": "da:Kirkens Korshær",
       "name": "Kirkens Korshær Genbrug",
+      "shop": "charity"
+    }
+  },
+  "shop/charity|Marie Curie": {
+    "countryCodes": ["gb"],
+    "tags": {
+      "brand": "Marie Curie",
+      "brand:wikidata": "Q16997351",
+      "brand:wikipedia": "en:Marie Curie (charity)",
+      "name": "Marie Curie",
       "shop": "charity"
     }
   },
@@ -110,6 +123,16 @@
       "shop": "charity"
     }
   },
+  "shop/charity|PDSA": {
+    "countryCodes": ["gb"],
+    "tags": {
+      "brand": "PDSA",
+      "brand:wikidata": "Q7165541",
+      "brand:wikipedia": "en:People's Dispensary for Sick Animals",
+      "name": "PDSA",
+      "shop": "charity"
+    }
+  },
   "shop/charity|RSPCA": {
     "countryCodes": ["au", "gb"],
     "tags": {
@@ -145,6 +168,16 @@
       "name": "Saint Vincent de Paul Thrift Store",
       "shop": "charity",
       "short_name": "SVdP"
+    }
+  },
+  "shop/charity|Samaritans": {
+    "countryCodes": ["gb", "ie"],
+    "tags": {
+      "brand": "Samaritans",
+      "brand:wikidata": "Q7408851",
+      "brand:wikipedia": "en:Samaritans (charity)",
+      "name": "Samaritans",
+      "shop": "charity"
     }
   },
   "shop/charity|Scope": {

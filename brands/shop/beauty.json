@@ -33,6 +33,10 @@
   },
   "shop/beauty|Indigo Sun": {
     "countryCodes": ["gb"],
+    "matchTags": [
+      "leisure/tanning_salon",
+      "shop/solarium"
+    ],
     "tags": {
       "beauty": "tanning",
       "brand": "Indigo Sun",
@@ -46,6 +50,31 @@
       "beauty": "nails",
       "brand": "Nails for You",
       "name": "Nails for You",
+      "shop": "beauty"
+    }
+  },
+  "shop/beauty|Palm Beach Tan": {
+    "countryCodes": ["us"],
+    "matchTags": [
+      "leisure/tanning_salon",
+      "shop/solarium"
+    ],
+    "tags": {
+      "beauty": "tanning",
+      "brand": "Palm Beach Tan",
+      "brand:wikidata": "Q64027086",
+      "brand:wikipedia": "en:Palm Beach Tan",
+      "name": "Palm Beach Tan",
+      "shop": "beauty"
+    }
+  },
+  "shop/beauty|Perfect Brows NYC": {
+    "countryCodes": ["us"],
+    "matchNames": ["perfect brows"],
+    "tags": {
+      "beauty": "eyebrow;eyelash;waxing",
+      "brand": "Perfect Brows NYC",
+      "name": "Perfect Brows NYC",
       "shop": "beauty"
     }
   },
@@ -70,7 +99,10 @@
   },
   "shop/beauty|The Skin Bar at Ulta Beauty": {
     "countryCodes": ["us"],
-    "nomatch": ["shop/beauty|Ulta Beauty"],
+    "nomatch": [
+      "shop/beauty|Ulta Beauty",
+      "shop/cosmetics|Ulta Beauty"
+    ],
     "tags": {
       "alt_name": "Ulta Skin Bar",
       "beauty": "skin_care",

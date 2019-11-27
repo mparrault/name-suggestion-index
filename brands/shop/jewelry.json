@@ -40,8 +40,8 @@
   "shop/jewelry|Charm Diamond Centres": {
     "countryCodes": ["ca"],
     "matchNames": [
-      "Charm Diamond",
-      "Charm Diamond Centre"
+      "charm diamond",
+      "charm diamond centre"
     ],
     "tags": {
       "brand": "Charm Diamond Centres",
@@ -90,6 +90,40 @@
       "shop": "jewelry"
     }
   },
+  "shop/jewelry|F.Hinds": {
+    "countryCodes": ["gb"],
+    "tags": {
+      "brand": "F.Hinds",
+      "brand:wikidata": "Q5423915",
+      "brand:wikipedia": "en:F. Hinds",
+      "name": "F.Hinds",
+      "shop": "jewelry"
+    }
+  },
+  "shop/jewelry|Fred Meyer": {
+    "countryCodes": ["us"],
+    "nomatch": [
+      "shop/department_store|Fred Meyer",
+      "shop/supermarket|Fred Meyer"
+    ],
+    "tags": {
+      "brand": "Fred Meyer",
+      "brand:wikidata": "Q5495932",
+      "brand:wikipedia": "en:Fred Meyer",
+      "name": "Fred Meyer",
+      "shop": "jewelry"
+    }
+  },
+  "shop/jewelry|Goldsmiths": {
+    "countryCodes": ["gb"],
+    "tags": {
+      "brand": "Goldsmiths",
+      "brand:wikidata": "Q16993095",
+      "brand:wikipedia": "en:Goldsmiths (retailer)",
+      "name": "Goldsmiths",
+      "shop": "jewelry"
+    }
+  },
   "shop/jewelry|Guldfynd": {
     "countryCodes": ["se"],
     "tags": {
@@ -107,6 +141,16 @@
       "brand:wikidata": "Q5628558",
       "brand:wikipedia": "en:H. Samuel",
       "name": "H.Samuel",
+      "shop": "jewelry"
+    }
+  },
+  "shop/jewelry|Helzberg Diamonds": {
+    "countryCodes": ["us"],
+    "tags": {
+      "brand": "Helzberg Diamonds",
+      "brand:wikidata": "Q16995161",
+      "brand:wikipedia": "en:Helzberg Diamonds",
+      "name": "Helzberg Diamonds",
       "shop": "jewelry"
     }
   },
@@ -172,8 +216,11 @@
     }
   },
   "shop/jewelry|Lucardi": {
+    "countryCodes": ["nl"],
     "tags": {
       "brand": "Lucardi",
+      "brand:wikidata": "Q13774940",
+      "brand:wikipedia": "nl:Lucardi",
       "name": "Lucardi",
       "shop": "jewelry"
     }
@@ -233,6 +280,13 @@
       "shop": "jewelry"
     }
   },
+  "shop/jewelry|Thomas Sabo": {
+    "tags": {
+      "brand": "Thomas Sabo",
+      "name": "Thomas Sabo",
+      "shop": "jewelry"
+    }
+  },
   "shop/jewelry|Tiffany & Company": {
     "countryCodes": ["us"],
     "matchNames": ["tiffany", "tiffany's"],
@@ -248,6 +302,8 @@
   "shop/jewelry|Tous": {
     "tags": {
       "brand": "Tous",
+      "brand:wikidata": "Q3815128",
+      "brand:wikipedia": "en:Tous (company)",
       "name": "Tous",
       "shop": "jewelry"
     }

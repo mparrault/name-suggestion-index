@@ -30,9 +30,11 @@
   },
   "shop/outdoor|Cotswold Outdoor": {
     "countryCodes": ["gb"],
+    "matchNames": ["cotswold"],
     "tags": {
       "brand": "Cotswold Outdoor",
       "brand:wikidata": "Q5175488",
+      "brand:wikipedia": "en:Cotswold Outdoor",
       "name": "Cotswold Outdoor",
       "shop": "outdoor"
     }
@@ -45,6 +47,15 @@
       "brand:wikidata": "Q64357426",
       "brand:wikipedia": "en:Gander Outdoors",
       "name": "Gander Outdoors",
+      "shop": "outdoor"
+    }
+  },
+  "shop/outdoor|Go Outdoors": {
+    "countryCodes": ["gb"],
+    "tags": {
+      "brand": "Go Outdoors",
+      "brand:wikidata": "Q75293941",
+      "name": "Go Outdoors",
       "shop": "outdoor"
     }
   },
@@ -116,13 +127,6 @@
       "brand:wikidata": "Q17035733",
       "brand:wikipedia": "en:Trespass (clothing)",
       "name": "Trespass",
-      "shop": "outdoor"
-    }
-  },
-  "shop/outdoor|Рыболов": {
-    "tags": {
-      "brand": "Рыболов",
-      "name": "Рыболов",
       "shop": "outdoor"
     }
   }

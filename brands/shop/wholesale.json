@@ -1,7 +1,7 @@
 {
   "shop/wholesale|BJ's Wholesale Club": {
     "countryCodes": ["us"],
-    "matchTags": ["shop/department_store"],
+    "matchNames": ["bjs", "bjs wholesale"],
     "tags": {
       "brand": "BJ's Wholesale Club",
       "brand:wikidata": "Q4835754",
@@ -12,7 +12,6 @@
   },
   "shop/wholesale|Costco": {
     "matchNames": ["costco wholesale"],
-    "matchTags": ["shop/department_store"],
     "nomatch": [
       "amenity/fuel|Costco Gasoline",
       "amenity/pharmacy|Costco Pharmacy"
@@ -26,7 +25,6 @@
     }
   },
   "shop/wholesale|Makro": {
-    "matchTags": ["shop/department_store"],
     "tags": {
       "brand": "Makro",
       "brand:wikidata": "Q704606",
@@ -36,10 +34,13 @@
     }
   },
   "shop/wholesale|Metro": {
-    "matchTags": ["shop/department_store"],
     "nomatch": [
-      "amenity/bank|Metrobank",
-      "shop/supermarket|Metro~(Canada)"
+      "amenity/bank|Metro Bank~(UK)",
+      "amenity/bank|Metrobank~(Philippines)",
+      "shop/mobile_phone|MetroPCS",
+      "shop/supermarket|Metro~(Ontario)",
+      "shop/supermarket|Metro~(Peru)",
+      "shop/supermarket|Metro~(Quebec)"
     ],
     "tags": {
       "brand": "Metro",
@@ -50,7 +51,6 @@
     }
   },
   "shop/wholesale|Sam's Club": {
-    "matchTags": ["shop/department_store"],
     "nomatch": ["amenity/fuel|Sam's Club"],
     "tags": {
       "brand": "Sam's Club",
@@ -60,9 +60,18 @@
       "shop": "wholesale"
     }
   },
+  "shop/wholesale|Sligro": {
+    "tags": {
+      "brand": "Sligro",
+      "brand:wikidata": "Q3170052",
+      "brand:wikipedia": "nl:Sligro Food Group",
+      "membership": "yes",
+      "name": "Sligro",
+      "shop": "wholesale"
+    }
+  },
   "shop/wholesale|コストコ": {
     "countryCodes": ["jp"],
-    "matchTags": ["shop/department_store"],
     "tags": {
       "brand": "コストコ",
       "brand:en": "Costco",

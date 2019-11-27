@@ -29,6 +29,16 @@
       "shop": "books"
     }
   },
+  "shop/books|Bertrand": {
+    "countryCodes": ["pt"],
+    "tags": {
+      "brand": "Bertrand",
+      "brand:wikidata": "Q1866547",
+      "brand:wikipedia": "en:Livraria Bertrand",
+      "name": "Bertrand",
+      "shop": "books"
+    }
+  },
   "shop/books|Books-A-Million": {
     "countryCodes": ["us"],
     "tags": {
@@ -111,6 +121,16 @@
       "shop": "books"
     }
   },
+  "shop/books|Gramedia": {
+    "countryCodes": ["id"],
+    "tags": {
+      "brand": "Gramedia",
+      "brand:wikidata": "Q19646130",
+      "brand:wikipedia": "id:Gramedia (toko buku)",
+      "name": "Gramedia",
+      "shop": "books"
+    }
+  },
   "shop/books|Half Price Books": {
     "countryCodes": ["us"],
     "tags": {
@@ -142,6 +162,16 @@
       "shop": "books"
     }
   },
+  "shop/books|Libro": {
+    "countryCodes": ["at"],
+    "tags": {
+      "brand": "Libro",
+      "brand:wikidata": "Q1823138",
+      "brand:wikipedia": "de:Libro",
+      "name": "Libro",
+      "shop": "books"
+    }
+  },
   "shop/books|Mondadori": {
     "countryCodes": ["it"],
     "tags": {
@@ -159,6 +189,48 @@
       "brand:wikidata": "Q6971094",
       "brand:wikipedia": "en:National Book Store",
       "name": "National Book Store",
+      "shop": "books"
+    }
+  },
+  "shop/books|Osiander": {
+    "countryCodes": ["de"],
+    "tags": {
+      "brand": "Osiander",
+      "brand:wikidata": "Q1800686",
+      "brand:wikipedia": "de:Osiandersche Buchhandlung",
+      "name": "Osiander",
+      "shop": "books"
+    }
+  },
+  "shop/books|Oxfam Bookshop": {
+    "countryCodes": ["gb"],
+    "tags": {
+      "brand": "Oxfam Bookshop",
+      "brand:wikidata": "Q7115196",
+      "brand:wikipedia": "en:Oxfam bookshops",
+      "name": "Oxfam Bookshop",
+      "second_hand": "only",
+      "shop": "books"
+    }
+  },
+  "shop/books|Saraiva": {
+    "countryCodes": ["br"],
+    "tags": {
+      "alt_name": "Livraria Saraiva",
+      "brand": "Saraiva",
+      "brand:wikidata": "Q10319337",
+      "brand:wikipedia": "pt:Livraria Saraiva",
+      "name": "Saraiva",
+      "shop": "books"
+    }
+  },
+  "shop/books|Seagull Book": {
+    "countryCodes": ["us"],
+    "tags": {
+      "brand": "Seagull Book",
+      "brand:wikidata": "Q7440458",
+      "brand:wikipedia": "en:Seagull Book",
+      "name": "Seagull Book",
       "shop": "books"
     }
   },
@@ -288,7 +360,7 @@
   },
   "shop/books|צומת ספרים": {
     "countryCodes": ["il"],
-    "matchNames": ["Zomet Sfarim"],
+    "matchNames": ["zomet sfarim"],
     "tags": {
       "brand": "צומת ספרים",
       "brand:en": "Tzomet Sfarim",
@@ -312,6 +384,20 @@
       "name": "あおい書店",
       "name:en": "AOI",
       "name:ja": "あおい書店",
+      "shop": "books"
+    }
+  },
+  "shop/books|オリオン書房": {
+    "countryCodes": ["jp"],
+    "tags": {
+      "brand": "オリオン書房",
+      "brand:en": "Orion Books",
+      "brand:ja": "オリオン書房",
+      "brand:wikidata": "Q11292597",
+      "brand:wikipedia": "ja:オリオン書房",
+      "name": "オリオン書房",
+      "name:en": "Orion Books",
+      "name:ja": "オリオン書房",
       "shop": "books"
     }
   },
@@ -371,8 +457,16 @@
       "shop": "books"
     }
   },
+  "shop/books|宮脇書店": {
+    "tags": {
+      "brand": "宮脇書店",
+      "name": "宮脇書店",
+      "shop": "books"
+    }
+  },
   "shop/books|文教堂": {
     "countryCodes": ["jp"],
+    "matchNames": ["文教堂書店"],
     "tags": {
       "brand": "文教堂",
       "brand:en": "Bunkyodo",
@@ -396,6 +490,20 @@
       "name": "新华书店",
       "name:en": "Xinhua Bookstore",
       "name:zh": "新华书店",
+      "shop": "books"
+    }
+  },
+  "shop/books|有隣堂": {
+    "countryCodes": ["jp"],
+    "tags": {
+      "brand": "有隣堂",
+      "brand:en": "Yurindo",
+      "brand:ja": "有隣堂",
+      "brand:wikidata": "Q8061680",
+      "brand:wikipedia": "ja:有隣堂",
+      "name": "有隣堂",
+      "name:en": "Yurindo",
+      "name:ja": "有隣堂",
       "shop": "books"
     }
   },

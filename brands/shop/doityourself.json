@@ -47,7 +47,7 @@
     }
   },
   "shop/doityourself|Brico Dépôt": {
-    "countryCodes": ["fr", "ro"],
+    "countryCodes": ["es", "fr", "pt", "ro"],
     "tags": {
       "brand": "Brico Dépôt",
       "brand:wikidata": "Q2889702",
@@ -276,6 +276,13 @@
       "shop": "doityourself"
     }
   },
+  "shop/doityourself|Jula": {
+    "tags": {
+      "brand": "Jula",
+      "name": "Jula",
+      "shop": "doityourself"
+    }
+  },
   "shop/doityourself|Karwei": {
     "countryCodes": ["nl"],
     "tags": {
@@ -283,6 +290,13 @@
       "brand:wikidata": "Q2097480",
       "brand:wikipedia": "en:Karwei",
       "name": "Karwei",
+      "shop": "doityourself"
+    }
+  },
+  "shop/doityourself|Lapeyre": {
+    "tags": {
+      "brand": "Lapeyre",
+      "name": "Lapeyre",
       "shop": "doityourself"
     }
   },
@@ -549,10 +563,25 @@
       "shop": "doityourself"
     }
   },
+  "shop/doityourself|ケーヨー": {
+    "countryCodes": ["jp"],
+    "tags": {
+      "brand": "ケーヨー",
+      "brand:en": "Keiyo",
+      "brand:ja": "ケーヨー",
+      "brand:wikidata": "Q11301462",
+      "brand:wikipedia": "ja:ケーヨー",
+      "name": "ケーヨー",
+      "name:en": "Keiyo",
+      "name:ja": "ケーヨー",
+      "shop": "doityourself"
+    }
+  },
   "shop/doityourself|コメリ": {
     "countryCodes": ["jp"],
     "tags": {
       "brand": "コメリ",
+      "brand:en": "Komeri",
       "brand:ja": "コメリ",
       "brand:wikidata": "Q11302690",
       "brand:wikipedia": "ja:コメリ",
@@ -566,6 +595,7 @@
     "countryCodes": ["jp"],
     "tags": {
       "brand": "コーナン",
+      "brand:en": "Kohnan",
       "brand:ja": "コーナン",
       "brand:wikidata": "Q11303403",
       "brand:wikipedia": "ja:コーナン",
@@ -579,8 +609,12 @@
     "countryCodes": ["jp"],
     "tags": {
       "brand": "ナフコ",
+      "brand:en": "Nafco",
       "brand:ja": "ナフコ",
+      "brand:wikidata": "Q11323981",
+      "brand:wikipedia": "ja:ナフコ (ホームセンター)",
       "name": "ナフコ",
+      "name:en": "Nafco",
       "name:ja": "ナフコ",
       "shop": "doityourself"
     }

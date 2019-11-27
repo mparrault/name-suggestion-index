@@ -1,4 +1,14 @@
 {
+  "amenity/parking|Diamond Parking": {
+    "countryCodes": ["ca", "us"],
+    "tags": {
+      "amenity": "parking",
+      "brand": "Diamond Parking",
+      "brand:wikidata": "Q5270887",
+      "brand:wikipedia": "en:Diamond Parking",
+      "name": "Diamond Parking"
+    }
+  },
   "amenity/parking|Parking Company of America": {
     "countryCodes": ["us"],
     "tags": {
@@ -26,6 +36,25 @@
       "brand:wikipedia": "en:SP Plus Corporation",
       "fee": "yes",
       "name": "SP+"
+    }
+  },
+  "amenity/parking|Wilson Parking": {
+    "countryCodes": [
+      "au",
+      "cn",
+      "hk",
+      "ko",
+      "nz",
+      "sg"
+    ],
+    "matchNames": ["wilson"],
+    "tags": {
+      "amenity": "parking",
+      "brand": "Wilson Parking",
+      "brand:wikidata": "Q28448427",
+      "brand:wikipedia": "en:Wilson Parking",
+      "fee": "yes",
+      "name": "Wilson Parking"
     }
   }
 }

@@ -35,6 +35,13 @@
       "shop": "car_repair"
     }
   },
+  "shop/car_repair|Autoservis": {
+    "tags": {
+      "brand": "Autoservis",
+      "name": "Autoservis",
+      "shop": "car_repair"
+    }
+  },
   "shop/car_repair|Avatacar": {
     "countryCodes": ["fr"],
     "tags": {
@@ -153,6 +160,13 @@
       "shop": "car_repair"
     }
   },
+  "shop/car_repair|First Stop": {
+    "tags": {
+      "brand": "First Stop",
+      "name": "First Stop",
+      "shop": "car_repair"
+    }
+  },
   "shop/car_repair|Ford": {
     "nomatch": ["shop/car|Ford"],
     "tags": {
@@ -268,7 +282,7 @@
   },
   "shop/car_repair|Monro Muffler Brake": {
     "countryCodes": ["us"],
-    "matchNames": ["monro"],
+    "matchNames": ["monro", "monro muffler"],
     "tags": {
       "brand": "Monro Muffler Brake",
       "brand:wikidata": "Q6902090",
@@ -284,6 +298,16 @@
       "brand:wikidata": "Q17104067",
       "brand:wikipedia": "en:Mr. Lube",
       "name": "Mr. Lube",
+      "shop": "car_repair"
+    }
+  },
+  "shop/car_repair|National Tire and Battery": {
+    "countryCodes": ["us"],
+    "tags": {
+      "brand": "National Tire and Battery",
+      "brand:wikidata": "Q6978944",
+      "brand:wikipedia": "en:National Tire and Battery",
+      "name": "National Tire and Battery",
       "shop": "car_repair"
     }
   },
@@ -326,13 +350,6 @@
       "shop": "car_repair"
     }
   },
-  "shop/car_repair|Pit Stop": {
-    "tags": {
-      "brand": "Pit Stop",
-      "name": "Pit Stop",
-      "shop": "car_repair"
-    }
-  },
   "shop/car_repair|Point S": {
     "tags": {
       "brand": "Point S",
@@ -365,6 +382,7 @@
   },
   "shop/car_repair|Safelite AutoGlass": {
     "countryCodes": ["us"],
+    "matchNames": ["safelight auto glass"],
     "tags": {
       "brand": "Safelite AutoGlass",
       "brand:wikidata": "Q28797369",
@@ -405,13 +423,6 @@
       "brand": "Speedy Auto Service",
       "brand:wikidata": "Q22318193",
       "name": "Speedy Auto Service",
-      "shop": "car_repair"
-    }
-  },
-  "shop/car_repair|Taller Mecanico": {
-    "tags": {
-      "brand": "Taller Mecanico",
-      "name": "Taller Mecanico",
       "shop": "car_repair"
     }
   },
@@ -457,6 +468,26 @@
       "shop": "car_repair"
     }
   },
+  "shop/car_repair|Valvoline Express Care": {
+    "countryCodes": ["us"],
+    "tags": {
+      "alt_name": "Express Care",
+      "brand": "Valvoline Express Care",
+      "brand:wikidata": "Q74273584",
+      "name": "Valvoline Express Care",
+      "shop": "car_repair"
+    }
+  },
+  "shop/car_repair|pitstop": {
+    "countryCodes": ["de"],
+    "tags": {
+      "brand": "pitstop",
+      "brand:wikidata": "Q1310014",
+      "brand:wikipedia": "de:Pitstop (Werkstattkette)",
+      "name": "pitstop",
+      "shop": "car_repair"
+    }
+  },
   "shop/car_repair|ÖAMTC": {
     "countryCodes": ["at"],
     "tags": {
@@ -467,10 +498,31 @@
       "shop": "car_repair"
     }
   },
+  "shop/car_repair|Автоэлектрик": {
+    "tags": {
+      "brand": "Автоэлектрик",
+      "name": "Автоэлектрик",
+      "shop": "car_repair"
+    }
+  },
   "shop/car_repair|СТО": {
     "tags": {
       "brand": "СТО",
       "name": "СТО",
+      "shop": "car_repair"
+    }
+  },
+  "shop/car_repair|カーコンビニ倶楽部": {
+    "countryCodes": ["jp"],
+    "tags": {
+      "brand": "カーコンビニ倶楽部",
+      "brand:en": "Car Convenience Club",
+      "brand:ja": "カーコンビニ倶楽部",
+      "brand:wikidata": "Q11295590",
+      "brand:wikipedia": "ja:カーコンビニ倶楽部",
+      "name": "カーコンビニ倶楽部",
+      "name:en": "Car Convenience Club",
+      "name:ja": "カーコンビニ倶楽部",
       "shop": "car_repair"
     }
   }

@@ -38,6 +38,15 @@
       "shop": "money_lender"
     }
   },
+  "shop/money_lender|CashMax": {
+    "countryCodes": ["us"],
+    "tags": {
+      "brand": "CashMax",
+      "brand:wikidata": "Q69365478",
+      "name": "CashMax",
+      "shop": "money_lender"
+    }
+  },
   "shop/money_lender|Check Into Cash": {
     "countryCodes": ["us"],
     "tags": {
@@ -75,6 +84,16 @@
       "brand:wikidata": "Q6899166",
       "brand:wikipedia": "en:Money Mart",
       "name": "Money Mart",
+      "shop": "money_lender"
+    }
+  },
+  "shop/money_lender|Moneytree": {
+    "countryCodes": ["us"],
+    "tags": {
+      "brand": "Moneytree",
+      "brand:wikidata": "Q6899361",
+      "brand:wikipedia": "en:Moneytree",
+      "name": "Moneytree",
       "shop": "money_lender"
     }
   }

@@ -43,6 +43,7 @@
       "ua",
       "us"
     ],
+    "nomatch": ["amenity/cafe|Aroma"],
     "tags": {
       "amenity": "cafe",
       "brand": "Aroma Espresso Bar",
@@ -65,16 +66,17 @@
       "takeaway": "yes"
     }
   },
-  "amenity/cafe|Beck's Coffe Shop": {
+  "amenity/cafe|Beck's Coffee Shop": {
     "countryCodes": ["jp"],
+    "matchNames": ["beck's coffe shop"],
     "tags": {
       "alt_name": "ベックス・コーヒーショップ",
       "amenity": "cafe",
-      "brand": "Beck's Coffe Shop",
+      "brand": "Beck's Coffee Shop",
       "brand:wikidata": "Q11191008",
-      "brand:wikipedia": "ja:Beck's Coffe Shop",
+      "brand:wikipedia": "ja:BECK'S COFFEE SHOP",
       "cuisine": "coffee_shop",
-      "name": "Beck's Coffe Shop",
+      "name": "Beck's Coffee Shop",
       "takeaway": "yes"
     }
   },
@@ -98,6 +100,18 @@
       "brand:wikidata": "Q64225934",
       "cuisine": "coffee_shop",
       "name": "Black Rock Coffee",
+      "takeaway": "yes"
+    }
+  },
+  "amenity/cafe|Blue Bottle Coffee": {
+    "countryCodes": ["jp", "kr", "us"],
+    "tags": {
+      "amenity": "cafe",
+      "brand": "Blue Bottle Coffee",
+      "brand:wikidata": "Q4928917",
+      "brand:wikipedia": "en:Blue Bottle Coffee",
+      "cuisine": "coffee_shop",
+      "name": "Blue Bottle Coffee",
       "takeaway": "yes"
     }
   },
@@ -253,8 +267,18 @@
       "takeaway": "yes"
     }
   },
-  "amenity/cafe|Coffee Culture": {
-    "countryCodes": ["ca", "nz", "us"],
+  "amenity/cafe|Coffee Culture~(Canada/USA)": {
+    "countryCodes": ["ca", "us"],
+    "tags": {
+      "amenity": "cafe",
+      "brand": "Coffee Culture",
+      "cuisine": "coffee_shop",
+      "name": "Coffee Culture",
+      "takeaway": "yes"
+    }
+  },
+  "amenity/cafe|Coffee Culture~(New Zealand)": {
+    "countryCodes": ["nz"],
     "tags": {
       "amenity": "cafe",
       "brand": "Coffee Culture",
@@ -433,10 +457,22 @@
     "tags": {
       "amenity": "cafe",
       "brand": "Fran's Café",
-      "brand:website": "http://www.franscafe.com.br",
       "brand:wikidata": "Q62075645",
       "cuisine": "coffee_shop",
       "name": "Fran's Café",
+      "takeaway": "yes"
+    }
+  },
+  "amenity/cafe|Gloria Jean's": {
+    "nomatch": ["shop/clothes|Gloria Jeans"],
+    "tags": {
+      "amenity": "cafe",
+      "brand": "Gloria Jean's",
+      "brand:wikidata": "Q2666365",
+      "brand:wikipedia": "en:Gloria Jean's Coffees",
+      "cuisine": "coffee_shop",
+      "name": "Gloria Jean's",
+      "official_name": "Gloria Jean's Coffees",
       "takeaway": "yes"
     }
   },
@@ -509,6 +545,18 @@
       "takeaway": "yes"
     }
   },
+  "amenity/cafe|Hudsons Coffee": {
+    "countryCodes": ["au", "sg"],
+    "tags": {
+      "amenity": "cafe",
+      "brand": "Hudsons Coffee",
+      "brand:wikidata": "Q5929076",
+      "brand:wikipedia": "en:Hudsons Coffee",
+      "cuisine": "coffee_shop",
+      "name": "Hudsons Coffee",
+      "takeaway": "yes"
+    }
+  },
   "amenity/cafe|Insomnia": {
     "countryCodes": ["ie"],
     "tags": {
@@ -518,6 +566,26 @@
       "brand:wikipedia": "en:Insomnia Coffee Company",
       "cuisine": "coffee_shop",
       "name": "Insomnia",
+      "takeaway": "yes"
+    }
+  },
+  "amenity/cafe|Jamaica Blue": {
+    "countryCodes": [
+      "ae",
+      "au",
+      "cn",
+      "my",
+      "nz",
+      "sg",
+      "uk"
+    ],
+    "tags": {
+      "amenity": "cafe",
+      "brand": "Jamaica Blue",
+      "brand:wikidata": "Q24965819",
+      "brand:wikipedia": "en:Jamaica Blue",
+      "cuisine": "coffee_shop",
+      "name": "Jamaica Blue",
       "takeaway": "yes"
     }
   },
@@ -579,13 +647,61 @@
       "takeaway": "yes"
     }
   },
+  "amenity/cafe|Michel's Patisserie": {
+    "countryCodes": ["au", "cn", "id", "nz"],
+    "tags": {
+      "amenity": "cafe",
+      "brand": "Michel's Patisserie",
+      "brand:wikidata": "Q6836235",
+      "brand:wikipedia": "en:Michel's Patisserie",
+      "cuisine": "coffee_shop",
+      "name": "Michel's Patisserie",
+      "takeaway": "yes"
+    }
+  },
   "amenity/cafe|Mikel": {
-    "countryCodes": ["gr"],
+    "countryCodes": [
+      "ae",
+      "au",
+      "cy",
+      "de",
+      "eg",
+      "gb",
+      "gr",
+      "sa",
+      "us"
+    ],
     "tags": {
       "amenity": "cafe",
       "brand": "Mikel",
+      "brand:wikidata": "Q16952021",
+      "brand:wikipedia": "el:Mikel",
       "cuisine": "coffee_shop",
       "name": "Mikel",
+      "takeaway": "yes"
+    }
+  },
+  "amenity/cafe|Muffin Break": {
+    "countryCodes": ["au", "in", "nz", "uk"],
+    "tags": {
+      "amenity": "cafe",
+      "brand": "Muffin Break",
+      "brand:wikidata": "Q16964876",
+      "brand:wikipedia": "en:Muffin Break",
+      "cuisine": "coffee_shop",
+      "name": "Muffin Break",
+      "takeaway": "yes"
+    }
+  },
+  "amenity/cafe|Muzz Buzz": {
+    "countryCodes": ["au", "nz"],
+    "tags": {
+      "amenity": "cafe",
+      "brand": "Muzz Buzz",
+      "brand:wikidata": "Q6944483",
+      "brand:wikipedia": "en:Muzz Buzz",
+      "cuisine": "coffee_shop",
+      "name": "Muzz Buzz",
       "takeaway": "yes"
     }
   },
@@ -611,6 +727,18 @@
       "brand:wikipedia": "en:Peet's Coffee",
       "cuisine": "coffee_shop",
       "name": "Peet's Coffee",
+      "takeaway": "yes"
+    }
+  },
+  "amenity/cafe|Pie Face": {
+    "countryCodes": ["au"],
+    "tags": {
+      "amenity": "cafe",
+      "brand": "Pie Face",
+      "brand:wikidata": "Q18166370",
+      "brand:wikipedia": "en:Pie Face",
+      "cuisine": "coffee_shop",
+      "name": "Pie Face",
       "takeaway": "yes"
     }
   },
@@ -793,6 +921,15 @@
       "takeaway": "yes"
     }
   },
+  "amenity/cafe|Toast Box": {
+    "tags": {
+      "amenity": "cafe",
+      "brand": "Toast Box",
+      "cuisine": "coffee_shop",
+      "name": "Toast Box",
+      "takeaway": "yes"
+    }
+  },
   "amenity/cafe|Tostao’": {
     "countryCodes": ["co"],
     "tags": {
@@ -855,6 +992,38 @@
       "takeaway": "yes"
     }
   },
+  "amenity/cafe|Ya Kun Kaya Toast": {
+    "tags": {
+      "amenity": "cafe",
+      "brand": "Ya Kun Kaya Toast",
+      "brand:wikidata": "Q8046237",
+      "brand:wikipedia": "en:Ya Kun Kaya Toast",
+      "cuisine": "coffee_shop",
+      "name": "Ya Kun Kaya Toast",
+      "takeaway": "yes"
+    }
+  },
+  "amenity/cafe|Zarraffa's Coffee": {
+    "countryCodes": ["au"],
+    "tags": {
+      "amenity": "cafe",
+      "brand": "Zarraffa's Coffee ",
+      "brand:wikidata": "Q8066878",
+      "brand:wikipedia": "en:Zarraffa's Coffee",
+      "cuisine": "coffee_shop",
+      "name": "Zarraffa's Coffee",
+      "takeaway": "yes"
+    }
+  },
+  "amenity/cafe|Їдальня": {
+    "tags": {
+      "amenity": "cafe",
+      "brand": "Їдальня",
+      "cuisine": "coffee_shop",
+      "name": "Їдальня",
+      "takeaway": "yes"
+    }
+  },
   "amenity/cafe|Берёзка": {
     "tags": {
       "amenity": "cafe",
@@ -865,6 +1034,10 @@
     }
   },
   "amenity/cafe|Виктория": {
+    "nomatch": [
+      "shop/hairdresser|Виктория",
+      "shop/supermarket|Виктория"
+    ],
     "tags": {
       "amenity": "cafe",
       "brand": "Виктория",
@@ -925,6 +1098,15 @@
       "takeaway": "yes"
     }
   },
+  "amenity/cafe|Парус": {
+    "tags": {
+      "amenity": "cafe",
+      "brand": "Парус",
+      "cuisine": "coffee_shop",
+      "name": "Парус",
+      "takeaway": "yes"
+    }
+  },
   "amenity/cafe|Сказка": {
     "tags": {
       "amenity": "cafe",
@@ -961,6 +1143,15 @@
       "takeaway": "yes"
     }
   },
+  "amenity/cafe|Трактир": {
+    "tags": {
+      "amenity": "cafe",
+      "brand": "Трактир",
+      "cuisine": "coffee_shop",
+      "name": "Трактир",
+      "takeaway": "yes"
+    }
+  },
   "amenity/cafe|Транзит": {
     "countryCodes": ["kz", "ru", "ua"],
     "tags": {
@@ -968,6 +1159,15 @@
       "brand": "Транзит",
       "cuisine": "coffee_shop",
       "name": "Транзит",
+      "takeaway": "yes"
+    }
+  },
+  "amenity/cafe|Уют": {
+    "tags": {
+      "amenity": "cafe",
+      "brand": "Уют",
+      "cuisine": "coffee_shop",
+      "name": "Уют",
       "takeaway": "yes"
     }
   },
@@ -1000,7 +1200,7 @@
       "brand:wikipedia": "ru:Шоколадница (сеть кофеен)",
       "cuisine": "coffee_shop",
       "name": "Шоколадница",
-      "name:en": "Chocolate",
+      "name:en": "Shokoladnitsa",
       "takeaway": "yes"
     }
   },
@@ -1271,18 +1471,9 @@
       "name": "スターバックス",
       "name:en": "Starbucks",
       "name:ja": "スターバックス",
-      "takeaway": "yes"
-    }
-  },
-  "amenity/cafe|スターバックスコーヒー": {
-    "countryCodes": ["jp"],
-    "tags": {
-      "amenity": "cafe",
-      "brand": "スターバックスコーヒー",
-      "brand:ja": "スターバックスコーヒー",
-      "cuisine": "coffee_shop",
-      "name": "スターバックスコーヒー",
-      "name:ja": "スターバックスコーヒー",
+      "official_name": "スターバックスコーヒー",
+      "official_name:en": "Starbucks Coffee",
+      "official_name:ja": "スターバックスコーヒー",
       "takeaway": "yes"
     }
   },

@@ -1,4 +1,14 @@
 {
+  "shop/travel_agency|Alltours": {
+    "countryCodes": ["de"],
+    "tags": {
+      "brand": "Alltours",
+      "brand:wikidata": "Q2649481",
+      "brand:wikipedia": "de:Alltours",
+      "name": "Alltours",
+      "shop": "travel_agency"
+    }
+  },
   "shop/travel_agency|American Automobile Association": {
     "countryCodes": ["us"],
     "matchTags": [
@@ -34,15 +44,9 @@
       "shop": "travel_agency"
     }
   },
-  "shop/travel_agency|DER Deutsches Reisebüro": {
-    "tags": {
-      "brand": "DER Deutsches Reisebüro",
-      "name": "DER Deutsches Reisebüro",
-      "shop": "travel_agency"
-    }
-  },
   "shop/travel_agency|DER Reisebüro": {
     "countryCodes": ["de"],
+    "matchNames": ["der deutsches reisebüro"],
     "tags": {
       "brand": "DER Reisebüro",
       "brand:wikidata": "Q56729186",
@@ -98,9 +102,21 @@
       "shop": "travel_agency"
     }
   },
+  "shop/travel_agency|Hays Travel": {
+    "countryCodes": ["gb"],
+    "tags": {
+      "brand": "Hays Travel",
+      "brand:wikidata": "Q70250954",
+      "brand:wikipedia": "en:Hays Travel",
+      "name": "Hays Travel",
+      "shop": "travel_agency"
+    }
+  },
   "shop/travel_agency|Kuoni": {
     "tags": {
       "brand": "Kuoni",
+      "brand:wikidata": "Q684355",
+      "brand:wikipedia": "en:Kuoni Travel",
       "name": "Kuoni",
       "shop": "travel_agency"
     }
@@ -120,6 +136,15 @@
       "brand:wikidata": "Q17031665",
       "brand:wikipedia": "en:Liberty Travel",
       "name": "Liberty Travel",
+      "shop": "travel_agency"
+    }
+  },
+  "shop/travel_agency|Neckermann Reisen": {
+    "countryCodes": ["de"],
+    "tags": {
+      "brand": "Neckermann Reisen",
+      "brand:wikidata": "Q17300280",
+      "name": "Neckermann Reisen",
       "shop": "travel_agency"
     }
   },
@@ -180,6 +205,25 @@
       "brand:wikidata": "Q2141800",
       "brand:wikipedia": "en:Thomas Cook Group",
       "name": "Thomas Cook",
+      "shop": "travel_agency"
+    }
+  },
+  "shop/travel_agency|Turkish Airlines": {
+    "tags": {
+      "brand": "Turkish Airlines",
+      "brand:wikidata": "Q4548",
+      "brand:wikipedia": "en:Turkish Airlines",
+      "name": "Turkish Airlines",
+      "shop": "travel_agency"
+    }
+  },
+  "shop/travel_agency|ltur": {
+    "countryCodes": ["de"],
+    "tags": {
+      "brand": "ltur",
+      "brand:wikidata": "Q519040",
+      "brand:wikipedia": "de:L’TUR",
+      "name": "ltur",
       "shop": "travel_agency"
     }
   },

@@ -43,6 +43,7 @@
   },
   "shop/houseware|HomeGoods": {
     "countryCodes": ["us"],
+    "matchTags": ["shop/department_store"],
     "tags": {
       "brand": "HomeGoods",
       "brand:wikidata": "Q5887941",
@@ -67,6 +68,16 @@
       "brand:wikidata": "Q10553211",
       "brand:wikipedia": "sv:Lagerhaus",
       "name": "Lagerhaus",
+      "shop": "houseware"
+    }
+  },
+  "shop/houseware|Lakeland": {
+    "countryCodes": ["gb"],
+    "tags": {
+      "brand": "Lakeland",
+      "brand:wikidata": "Q16256199",
+      "brand:wikipedia": "en:Lakeland (company)",
+      "name": "Lakeland",
       "shop": "houseware"
     }
   },
@@ -137,6 +148,22 @@
       "shop": "houseware"
     }
   },
+  "shop/houseware|The Range": {
+    "countryCodes": ["gb", "ie"],
+    "matchTags": [
+      "shop/department_store",
+      "shop/doityourself",
+      "shop/furniture",
+      "shop/garden_centre",
+      "shop/variety_store"
+    ],
+    "tags": {
+      "brand": "The Range",
+      "brand:wikidata": "Q7759409",
+      "name": "The Range",
+      "shop": "houseware"
+    }
+  },
   "shop/houseware|Think Kitchen": {
     "countryCodes": ["ca"],
     "tags": {
@@ -184,24 +211,6 @@
       "shop": "houseware"
     }
   },
-  "shop/houseware|World Market": {
-    "countryCodes": ["us"],
-    "matchNames": ["cost plus"],
-    "matchTags": [
-      "shop/department_store",
-      "shop/furniture",
-      "shop/interior_decoration",
-      "shop/supermarket"
-    ],
-    "tags": {
-      "brand": "World Market",
-      "brand:wikidata": "Q5174750",
-      "brand:wikipedia": "en:Cost Plus World Market",
-      "name": "World Market",
-      "official_name": "Cost Plus World Market",
-      "shop": "interior_decoration"
-    }
-  },
   "shop/houseware|Xenos": {
     "countryCodes": ["de", "nl"],
     "tags": {
@@ -217,6 +226,22 @@
     "tags": {
       "brand": "Еврочехол",
       "name": "Еврочехол",
+      "shop": "houseware"
+    }
+  },
+  "shop/houseware|京王アートマン": {
+    "countryCodes": ["jp"],
+    "matchNames": ["アートマン"],
+    "matchTags": ["shop/variety_store"],
+    "tags": {
+      "brand": "京王アートマン",
+      "brand:en": "Keio Atman",
+      "brand:ja": "京王アートマン",
+      "brand:wikidata": "Q11374580",
+      "brand:wikipedia": "ja:京王アートマン",
+      "name": "京王アートマン",
+      "name:en": "Keio Atman",
+      "name:ja": "京王アートマン",
       "shop": "houseware"
     }
   }

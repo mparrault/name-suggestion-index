@@ -1,4 +1,22 @@
 {
+  "shop/car|Alfa Romeo": {
+    "tags": {
+      "brand": "Alfa Romeo",
+      "brand:wikidata": "Q26921",
+      "brand:wikipedia": "en:Alfa Romeo",
+      "name": "Alfa Romeo",
+      "shop": "car"
+    }
+  },
+  "shop/car|Aston Martin": {
+    "tags": {
+      "brand": "Aston Martin",
+      "brand:wikidata": "Q27074",
+      "brand:wikipedia": "en:Aston Martin",
+      "name": "Aston Martin",
+      "shop": "car"
+    }
+  },
   "shop/car|Audi": {
     "tags": {
       "brand": "Audi",
@@ -14,6 +32,16 @@
       "brand:wikidata": "Q26678",
       "brand:wikipedia": "en:BMW",
       "name": "BMW",
+      "shop": "car"
+    }
+  },
+  "shop/car|Bentley": {
+    "nomatch": ["shop/bag|Bentley"],
+    "tags": {
+      "brand": "Bentley",
+      "brand:wikidata": "Q27224",
+      "brand:wikipedia": "en:Bentley",
+      "name": "Bentley",
       "shop": "car"
     }
   },
@@ -112,6 +140,15 @@
       "shop": "car"
     }
   },
+  "shop/car|Freightliner": {
+    "tags": {
+      "brand": "Freightliner",
+      "brand:wikidata": "Q1420724",
+      "brand:wikipedia": "en:Freightliner Trucks",
+      "name": "Freightliner",
+      "shop": "car"
+    }
+  },
   "shop/car|GMC": {
     "tags": {
       "brand": "GMC",
@@ -164,6 +201,7 @@
     "tags": {
       "brand": "Jaguar",
       "brand:wikidata": "Q26742231",
+      "brand:wikipedia": "en:Jaguar Cars",
       "name": "Jaguar",
       "shop": "car"
     }
@@ -184,6 +222,19 @@
       "brand:wikidata": "Q35349",
       "brand:wikipedia": "en:Kia Motors",
       "name": "Kia",
+      "shop": "car"
+    }
+  },
+  "shop/car|Lada": {
+    "tags": {
+      "brand": "Lada",
+      "brand:en": "Lada",
+      "brand:ru": "Лада",
+      "brand:wikidata": "Q35676",
+      "brand:wikipedia": "en:Lada",
+      "name": "Lada",
+      "name:en": "Lada",
+      "name:ru": "Лада",
       "shop": "car"
     }
   },
@@ -268,6 +319,15 @@
       "brand:wikidata": "Q40966",
       "brand:wikipedia": "en:Opel",
       "name": "Opel",
+      "shop": "car"
+    }
+  },
+  "shop/car|Peterbilt": {
+    "tags": {
+      "brand": "Peterbilt",
+      "brand:wikidata": "Q944640",
+      "brand:wikipedia": "en:Peterbilt",
+      "name": "Peterbilt",
       "shop": "car"
     }
   },
@@ -456,6 +516,16 @@
       "name": "ダイハツ",
       "name:en": "Daihatsu",
       "name:ja": "ダイハツ",
+      "shop": "car"
+    }
+  },
+  "shop/car|トヨタカローラ": {
+    "countryCodes": ["jp"],
+    "tags": {
+      "brand": "トヨタカローラ",
+      "brand:ja": "トヨタカローラ",
+      "name": "トヨタカローラ",
+      "name:ja": "トヨタカローラ",
       "shop": "car"
     }
   },

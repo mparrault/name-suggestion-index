@@ -9,6 +9,13 @@
       "name": "24 Hour Fitness"
     }
   },
+  "leisure/fitness_centre|Academia ao ar livre": {
+    "tags": {
+      "brand": "Academia ao ar livre",
+      "leisure": "fitness_centre",
+      "name": "Academia ao ar livre"
+    }
+  },
   "leisure/fitness_centre|Anytime Fitness": {
     "tags": {
       "brand": "Anytime Fitness",
@@ -98,7 +105,7 @@
       "name": "F45 Training"
     }
   },
-  "leisure/fitness_centre|Fit4Less ~(Canada)": {
+  "leisure/fitness_centre|Fit4Less~(Canada)": {
     "countryCodes": ["ca"],
     "tags": {
       "brand": "Fit4Less",
@@ -107,7 +114,7 @@
       "name": "Fit4Less"
     }
   },
-  "leisure/fitness_centre|Fit4less ~(UK)": {
+  "leisure/fitness_centre|Fit4less~(UK)": {
     "countryCodes": ["uk"],
     "tags": {
       "brand": "Fit4less",
@@ -262,8 +269,18 @@
     }
   },
   "leisure/fitness_centre|Smart Fit": {
+    "countryCodes": [
+      "br",
+      "cl",
+      "co",
+      "do",
+      "mx",
+      "pe"
+    ],
     "tags": {
       "brand": "Smart Fit",
+      "brand:wikidata": "Q30930959",
+      "brand:wikipedia": "pt:Smart Fit",
       "leisure": "fitness_centre",
       "name": "Smart Fit"
     }
@@ -288,13 +305,37 @@
       "sport": "cycling"
     }
   },
+  "leisure/fitness_centre|The Gym": {
+    "countryCodes": ["gb"],
+    "matchNames": ["the gym group"],
+    "tags": {
+      "brand": "The Gym",
+      "brand:wikidata": "Q48815022",
+      "brand:wikipedia": "en:The Gym Group",
+      "leisure": "fitness_centre",
+      "name": "The Gym"
+    }
+  },
+  "leisure/fitness_centre|Virgin Active": {
+    "tags": {
+      "brand": "Virgin Active",
+      "brand:wikidata": "Q4013942",
+      "brand:wikipedia": "en:Virgin Active",
+      "leisure": "fitness_centre",
+      "name": "Virgin Active"
+    }
+  },
   "leisure/fitness_centre|カーブス": {
     "countryCodes": ["jp"],
     "tags": {
       "brand": "カーブス",
+      "brand:en": "Curves",
       "brand:ja": "カーブス",
+      "brand:wikidata": "Q5196080",
+      "brand:wikipedia": "ja:カーブス",
       "leisure": "fitness_centre",
       "name": "カーブス",
+      "name:en": "Curves",
       "name:ja": "カーブス"
     }
   }

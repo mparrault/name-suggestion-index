@@ -1,4 +1,11 @@
 {
+  "amenity/clinic|Aid Post": {
+    "tags": {
+      "amenity": "clinic",
+      "brand": "Aid Post",
+      "name": "Aid Post"
+    }
+  },
   "amenity/clinic|CityMD": {
     "countryCodes": ["us"],
     "tags": {
@@ -14,6 +21,7 @@
     "countryCodes": ["us"],
     "matchNames": [
       "davita",
+      "davita dialysis center",
       "davita kidney care"
     ],
     "tags": {
@@ -79,6 +87,27 @@
       "name": "Planned Parenthood"
     }
   },
+  "amenity/clinic|Posyandu": {
+    "tags": {
+      "amenity": "clinic",
+      "brand": "Posyandu",
+      "name": "Posyandu"
+    }
+  },
+  "amenity/clinic|Puskesmas": {
+    "tags": {
+      "amenity": "clinic",
+      "brand": "Puskesmas",
+      "name": "Puskesmas"
+    }
+  },
+  "amenity/clinic|Puskesmas Pembantu": {
+    "tags": {
+      "amenity": "clinic",
+      "brand": "Puskesmas Pembantu",
+      "name": "Puskesmas Pembantu"
+    }
+  },
   "amenity/clinic|Satellite Healthcare": {
     "countryCodes": ["us"],
     "matchNames": [
@@ -123,6 +152,32 @@
       "healthcare:for": "veterans",
       "name": "VA Clinic",
       "short_name": "VA"
+    }
+  },
+  "amenity/clinic|ZoomCare": {
+    "countryCodes": ["us"],
+    "tags": {
+      "amenity": "clinic",
+      "brand": "ZoomCare",
+      "brand:wikidata": "Q64120374",
+      "brand:wikipedia": "en:ZoomCare",
+      "healthcare": "clinic",
+      "name": "ZoomCare",
+      "urgent_care": "yes"
+    }
+  },
+  "amenity/clinic|Детская поликлиника": {
+    "tags": {
+      "amenity": "clinic",
+      "brand": "Детская поликлиника",
+      "name": "Детская поликлиника"
+    }
+  },
+  "amenity/clinic|درمانگاه": {
+    "tags": {
+      "amenity": "clinic",
+      "brand": "درمانگاه",
+      "name": "درمانگاه"
     }
   }
 }
